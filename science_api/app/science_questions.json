@@ -1,0 +1,3279 @@
+{
+  "title": "理科基礎問題集",
+  "subjects": [
+    {
+      "subjectId": "basic_phys",
+      "subject": "物理基礎",
+      "questions": [
+        {
+          "id": 1,
+          "category": "運動とエネルギー",
+          "unit": "速さ",
+          "difficulty": "easy",
+          "question": "物体が100 mの距離を20 sで等速直線運動した。速さはいくらか。",
+          "choices": [
+            "2 m/s",
+            "5 m/s",
+            "20 m/s",
+            "50 m/s"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "5 m/s",
+          "explanation": "速さは、移動距離を移動時間で割って求めます。v = x / t = 100 / 20 = 5より、速さは5 m/sです。",
+          "formula": "v = x / t"
+        },
+        {
+          "id": 2,
+          "category": "運動とエネルギー",
+          "unit": "速度",
+          "difficulty": "easy",
+          "question": "東向きを正とする。物体が西向きに3 m/sで運動しているとき、速度はどのように表されるか。",
+          "choices": [
+            "-3 m/s",
+            "0 m/s",
+            "3 m/s",
+            "6 m/s"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "-3 m/s",
+          "explanation": "東向きを正とすると、その反対の西向きは負になります。したがって、西向きに3 m/sの速度は-3 m/sと表されます。",
+          "formula": "東向きを正とすると、西向きの速度は負"
+        },
+        {
+          "id": 3,
+          "category": "運動とエネルギー",
+          "unit": "加速度",
+          "difficulty": "easy",
+          "question": "静止していた物体の速度が4 s後に12 m/sになった。加速度が一定であるとき、加速度はいくらか。",
+          "choices": [
+            "0.33 m/s²",
+            "3 m/s²",
+            "8 m/s²",
+            "48 m/s²"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "3 m/s²",
+          "explanation": "加速度は速度の変化量を時間で割って求めます。a = (12 - 0) / 4 = 3より、加速度は3 m/s²です。",
+          "formula": "a = (v - v₀) / t"
+        },
+        {
+          "id": 4,
+          "category": "運動とエネルギー",
+          "unit": "自由落下",
+          "difficulty": "easy",
+          "question": "空気抵抗を無視して物体を静かに落とした。落下中の物体の運動について正しいものはどれか。",
+          "choices": [
+            "速さは一定である",
+            "加速度は時間とともに小さくなる",
+            "鉛直下向きに一定の加速度で運動する",
+            "鉛直上向きに一定の加速度で運動する"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "鉛直下向きに一定の加速度で運動する",
+          "explanation": "空気抵抗を無視すると、落下中の物体には重力だけがはたらきます。そのため、物体は鉛直下向きに一定の重力加速度で運動します。",
+          "formula": "a = g"
+        },
+        {
+          "id": 5,
+          "category": "運動とエネルギー",
+          "unit": "力のつり合い",
+          "difficulty": "easy",
+          "question": "机の上で物体が静止している。物体にはたらく重力が10 Nであるとき、机から受ける垂直抗力の大きさはいくらか。",
+          "choices": [
+            "0 N",
+            "5 N",
+            "10 N",
+            "20 N"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "10 N",
+          "explanation": "物体は静止しているため、鉛直方向の力はつり合っています。下向きの重力10 Nと同じ大きさの垂直抗力が上向きにはたらくので、垂直抗力は10 Nです。",
+          "formula": "N - mg = 0"
+        },
+        {
+          "id": 6,
+          "category": "運動とエネルギー",
+          "unit": "運動方程式",
+          "difficulty": "easy",
+          "question": "質量3 kgの物体に6 Nの合力がはたらくとき、加速度はいくらか。",
+          "choices": [
+            "0.5 m/s²",
+            "2 m/s²",
+            "3 m/s²",
+            "18 m/s²"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 m/s²",
+          "explanation": "運動方程式F = maを使います。a = F / m = 6 / 3 = 2より、加速度は2 m/s²です。",
+          "formula": "F = ma"
+        },
+        {
+          "id": 7,
+          "category": "運動とエネルギー",
+          "unit": "作用・反作用",
+          "difficulty": "easy",
+          "question": "人が壁を20 Nの力で押した。この力と対になる反作用として正しいものはどれか。",
+          "choices": [
+            "壁が床を20 Nで押す力",
+            "床が人を20 Nで押す力",
+            "壁が人を20 Nで押し返す力",
+            "人にはたらく重力"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "壁が人を20 Nで押し返す力",
+          "explanation": "作用と反作用は、異なる物体の間に大きさが等しく向きが反対の力として同時にはたらきます。人が壁を押す力の反作用は、壁が人を押し返す力です。",
+          "formula": "F₁₂ = -F₂₁"
+        },
+        {
+          "id": 8,
+          "category": "運動とエネルギー",
+          "unit": "仕事",
+          "difficulty": "easy",
+          "question": "物体に進行方向と同じ向きに5 Nの力を加え、力の向きに4 m移動させた。この力がした仕事はいくらか。",
+          "choices": [
+            "1.25 J",
+            "9 J",
+            "20 J",
+            "40 J"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "20 J",
+          "explanation": "力と移動の向きが同じなので、仕事はW = Fxで求められます。W = 5 × 4 = 20より、仕事は20 Jです。",
+          "formula": "W = Fx"
+        },
+        {
+          "id": 9,
+          "category": "運動とエネルギー",
+          "unit": "仕事率",
+          "difficulty": "easy",
+          "question": "ある機械が200 Jの仕事を10 sで行った。この機械の仕事率はいくらか。",
+          "choices": [
+            "20 W",
+            "100 W",
+            "200 W",
+            "2000 W"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "20 W",
+          "explanation": "仕事率は仕事を時間で割って求めます。P = W / t = 200 / 10 = 20より、仕事率は20 Wです。",
+          "formula": "P = W / t"
+        },
+        {
+          "id": 10,
+          "category": "運動とエネルギー",
+          "unit": "運動エネルギー",
+          "difficulty": "easy",
+          "question": "質量2 kgの物体が3 m/sで運動している。この物体の運動エネルギーはいくらか。",
+          "choices": [
+            "3 J",
+            "6 J",
+            "9 J",
+            "18 J"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "9 J",
+          "explanation": "運動エネルギーはK = (1/2)mv²です。K = (1/2) × 2 × 3² = 9より、運動エネルギーは9 Jです。",
+          "formula": "K = (1/2)mv²"
+        },
+        {
+          "id": 11,
+          "category": "運動とエネルギー",
+          "unit": "重力による位置エネルギー",
+          "difficulty": "easy",
+          "question": "質量2 kgの物体を基準面から5 mの高さに置いた。重力加速度を10 m/s²とすると、重力による位置エネルギーはいくらか。",
+          "choices": [
+            "10 J",
+            "25 J",
+            "50 J",
+            "100 J"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "100 J",
+          "explanation": "重力による位置エネルギーはU = mghです。U = 2 × 10 × 5 = 100より、位置エネルギーは100 Jです。",
+          "formula": "U = mgh"
+        },
+        {
+          "id": 12,
+          "category": "熱",
+          "unit": "温度",
+          "difficulty": "easy",
+          "question": "0 ℃は絶対温度でおよそ何Kか。",
+          "choices": [
+            "0 K",
+            "100 K",
+            "273 K",
+            "373 K"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "273 K",
+          "explanation": "絶対温度Tは、セルシウス温度tに約273を加えて求めます。0 + 273 = 273より、0 ℃は約273 Kです。",
+          "formula": "T = t + 273"
+        },
+        {
+          "id": 13,
+          "category": "熱",
+          "unit": "熱量",
+          "difficulty": "easy",
+          "question": "物体が外部から熱を受け取り、状態変化を起こさずに温度が上昇した。このとき物体の内部エネルギーは一般にどうなるか。",
+          "choices": [
+            "増加する",
+            "減少する",
+            "必ず0になる",
+            "変化しない"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "増加する",
+          "explanation": "物体が熱を受け取って温度が上昇すると、物質を構成する粒子の熱運動が激しくなります。そのため、内部エネルギーは一般に増加します。",
+          "formula": "ΔU > 0"
+        },
+        {
+          "id": 14,
+          "category": "波",
+          "unit": "波の基本量",
+          "difficulty": "easy",
+          "question": "振動数が5 Hzの波は、1秒間に何回振動するか。",
+          "choices": [
+            "0.2回",
+            "2回",
+            "5回",
+            "10回"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "5回",
+          "explanation": "振動数は1秒間の振動回数を表します。5 Hzは、1秒間に5回振動することを意味します。",
+          "formula": "f = 振動回数 / 時間"
+        },
+        {
+          "id": 15,
+          "category": "波",
+          "unit": "波の速さ",
+          "difficulty": "easy",
+          "question": "波長が2 m、振動数が4 Hzの波の速さはいくらか。",
+          "choices": [
+            "0.5 m/s",
+            "2 m/s",
+            "6 m/s",
+            "8 m/s"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "8 m/s",
+          "explanation": "波の速さはv = fλで求めます。v = 4 × 2 = 8より、波の速さは8 m/sです。",
+          "formula": "v = fλ"
+        },
+        {
+          "id": 16,
+          "category": "波",
+          "unit": "音の性質",
+          "difficulty": "easy",
+          "question": "同じ媒質中を伝わる音について、音の高さを決める主な物理量はどれか。",
+          "choices": [
+            "振幅",
+            "振動数",
+            "音源までの距離",
+            "音の伝わる向き"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "振動数",
+          "explanation": "音の高さは主に振動数によって決まります。振動数が大きいほど高い音として聞こえ、振動数が小さいほど低い音として聞こえます。",
+          "formula": "音の高さは振動数fに対応する"
+        },
+        {
+          "id": 17,
+          "category": "電気",
+          "unit": "電流",
+          "difficulty": "easy",
+          "question": "導線の断面を10 sの間に20 Cの電気量が通過した。電流の大きさはいくらか。",
+          "choices": [
+            "0.5 A",
+            "2 A",
+            "10 A",
+            "200 A"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 A",
+          "explanation": "電流は単位時間あたりに通過する電気量です。I = Q / t = 20 / 10 = 2より、電流は2 Aです。",
+          "formula": "I = Q / t"
+        },
+        {
+          "id": 18,
+          "category": "電気",
+          "unit": "オームの法則",
+          "difficulty": "easy",
+          "question": "6 Ωの抵抗に12 Vの電圧を加えた。抵抗を流れる電流はいくらか。",
+          "choices": [
+            "0.5 A",
+            "2 A",
+            "6 A",
+            "72 A"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 A",
+          "explanation": "オームの法則V = RIを使います。I = V / R = 12 / 6 = 2より、電流は2 Aです。",
+          "formula": "V = RI"
+        },
+        {
+          "id": 19,
+          "category": "電気",
+          "unit": "電力",
+          "difficulty": "easy",
+          "question": "電圧100 Vの電源につないだ電気器具に2 Aの電流が流れた。消費電力はいくらか。",
+          "choices": [
+            "50 W",
+            "100 W",
+            "200 W",
+            "500 W"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "200 W",
+          "explanation": "電力はP = VIで求めます。P = 100 × 2 = 200より、消費電力は200 Wです。",
+          "formula": "P = VI"
+        },
+        {
+          "id": 20,
+          "category": "エネルギーとその利用",
+          "unit": "エネルギー変換",
+          "difficulty": "easy",
+          "question": "太陽電池で直接行われる主なエネルギー変換はどれか。",
+          "choices": [
+            "光エネルギーから電気エネルギー",
+            "電気エネルギーから光エネルギー",
+            "化学エネルギーから熱エネルギー",
+            "運動エネルギーから位置エネルギー"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "光エネルギーから電気エネルギー",
+          "explanation": "太陽電池は、太陽光がもつ光エネルギーを電気エネルギーへ直接変換する装置です。",
+          "formula": "光エネルギー → 電気エネルギー"
+        },
+        {
+          "id": 21,
+          "category": "運動とエネルギー",
+          "unit": "等加速度直線運動",
+          "difficulty": "normal",
+          "question": "初速度2 m/sで運動していた物体が、加速度3 m/s²で4 s間運動した。4 s後の速度はいくらか。",
+          "choices": [
+            "5 m/s",
+            "10 m/s",
+            "14 m/s",
+            "20 m/s"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "14 m/s",
+          "explanation": "等加速度直線運動の式v = v₀ + atを使います。v = 2 + 3 × 4 = 14より、4 s後の速度は14 m/sです。",
+          "formula": "v = v₀ + at"
+        },
+        {
+          "id": 22,
+          "category": "運動とエネルギー",
+          "unit": "等加速度直線運動",
+          "difficulty": "normal",
+          "question": "静止していた物体が2 m/s²の一定加速度で5 s間運動した。この間の移動距離はいくらか。",
+          "choices": [
+            "10 m",
+            "20 m",
+            "25 m",
+            "50 m"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "25 m",
+          "explanation": "初速度が0なので、移動距離はx = (1/2)at²です。x = (1/2) × 2 × 5² = 25より、移動距離は25 mです。",
+          "formula": "x = v₀t + (1/2)at²"
+        },
+        {
+          "id": 23,
+          "category": "運動とエネルギー",
+          "unit": "速度と変位",
+          "difficulty": "normal",
+          "question": "一直線上を東向きに30 m進んだ後、西向きに10 m進んだ。移動距離と変位の大きさの組合せとして正しいものはどれか。",
+          "choices": [
+            "移動距離20 m、変位の大きさ20 m",
+            "移動距離40 m、変位の大きさ20 m",
+            "移動距離20 m、変位の大きさ40 m",
+            "移動距離40 m、変位の大きさ40 m"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "移動距離40 m、変位の大きさ20 m",
+          "explanation": "移動距離は実際に進んだ道のりなので30 + 10 = 40 mです。東向きを正とした変位は30 - 10 = 20 mなので、変位の大きさは20 mです。",
+          "formula": "移動距離 = 道のりの合計、変位 = 終点の位置 - 始点の位置"
+        },
+        {
+          "id": 24,
+          "category": "運動とエネルギー",
+          "unit": "落体の運動",
+          "difficulty": "normal",
+          "question": "物体を初速度0で自由落下させた。重力加速度を10 m/s²とすると、3 s後の速さはいくらか。",
+          "choices": [
+            "3 m/s",
+            "10 m/s",
+            "30 m/s",
+            "45 m/s"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "30 m/s",
+          "explanation": "自由落下の速さはv = gtで求めます。v = 10 × 3 = 30より、3 s後の速さは30 m/sです。",
+          "formula": "v = gt"
+        },
+        {
+          "id": 25,
+          "category": "運動とエネルギー",
+          "unit": "摩擦力",
+          "difficulty": "normal",
+          "question": "水平面上の物体を右向きに10 Nで引いたところ、左向きに4 Nの動摩擦力がはたらいた。物体の質量が2 kgのとき、加速度はいくらか。",
+          "choices": [
+            "2 m/s²",
+            "3 m/s²",
+            "5 m/s²",
+            "7 m/s²"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "3 m/s²",
+          "explanation": "右向きの合力は10 - 4 = 6 Nです。運動方程式F = maより、a = 6 / 2 = 3となるので、加速度は3 m/s²です。",
+          "formula": "F合 = 10 - 4 = 6 N、a = F合 / m"
+        },
+        {
+          "id": 26,
+          "category": "運動とエネルギー",
+          "unit": "静止摩擦力",
+          "difficulty": "normal",
+          "question": "水平な床の上にある物体を水平方向に3 Nで押したが、物体は動かなかった。このとき物体にはたらく静止摩擦力として正しいものはどれか。",
+          "choices": [
+            "押す向きに3 N",
+            "押す向きと反対に3 N",
+            "押す向きと反対に最大静止摩擦力と同じ大きさ",
+            "0 N"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "押す向きと反対に3 N",
+          "explanation": "物体が静止しているため、水平方向の合力は0です。したがって、静止摩擦力は押す力と反対向きに3 Nはたらきます。静止摩擦力は常に最大値になるわけではありません。",
+          "formula": "F合 = 3 - f = 0"
+        },
+        {
+          "id": 27,
+          "category": "運動とエネルギー",
+          "unit": "力の合成",
+          "difficulty": "normal",
+          "question": "物体に東向きに6 N、北向きに8 Nの力が同時にはたらいている。合力の大きさはいくらか。",
+          "choices": [
+            "2 N",
+            "7 N",
+            "10 N",
+            "14 N"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "10 N",
+          "explanation": "2つの力は直角なので、三平方の定理を使います。F = √(6² + 8²) = √100 = 10より、合力の大きさは10 Nです。",
+          "formula": "F = √(F₁² + F₂²)"
+        },
+        {
+          "id": 28,
+          "category": "運動とエネルギー",
+          "unit": "仕事",
+          "difficulty": "normal",
+          "question": "物体の移動方向に対して垂直な向きに10 Nの力を加えたまま、物体が5 m移動した。この力が物体にした仕事はいくらか。",
+          "choices": [
+            "0 J",
+            "10 J",
+            "50 J",
+            "500 J"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "0 J",
+          "explanation": "仕事はW = Fx cosθで求めます。力と移動方向が垂直なのでθ = 90°、cos90° = 0です。したがって、W = 10 × 5 × 0 = 0 Jです。",
+          "formula": "W = Fx cosθ"
+        },
+        {
+          "id": 29,
+          "category": "運動とエネルギー",
+          "unit": "力学的エネルギー保存",
+          "difficulty": "normal",
+          "question": "摩擦を無視できる斜面上で、質量1 kgの物体を高さ5 mの位置から静かに滑らせた。基準面に到達したときの速さはいくらか。重力加速度を10 m/s²とする。",
+          "choices": [
+            "5 m/s",
+            "10 m/s",
+            "25 m/s",
+            "50 m/s"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "10 m/s",
+          "explanation": "力学的エネルギー保存則より、mgh = (1/2)mv²です。質量を消去して、v = √(2gh) = √(2 × 10 × 5) = √100 = 10より、速さは10 m/sです。",
+          "formula": "mgh = (1/2)mv²"
+        },
+        {
+          "id": 30,
+          "category": "運動とエネルギー",
+          "unit": "弾性エネルギー",
+          "difficulty": "normal",
+          "question": "ばね定数200 N/mのばねを自然の長さから0.10 m縮めた。ばねに蓄えられる弾性エネルギーはいくらか。",
+          "choices": [
+            "0.5 J",
+            "1.0 J",
+            "2.0 J",
+            "10 J"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "1.0 J",
+          "explanation": "弾性エネルギーはU = (1/2)kx²です。U = (1/2) × 200 × 0.10² = 100 × 0.01 = 1.0より、弾性エネルギーは1.0 Jです。",
+          "formula": "U = (1/2)kx²"
+        },
+        {
+          "id": 31,
+          "category": "熱",
+          "unit": "比熱",
+          "difficulty": "normal",
+          "question": "質量0.50 kg、比熱4200 J/(kg・K)の水の温度を2.0 K上昇させるために必要な熱量はいくらか。",
+          "choices": [
+            "1050 J",
+            "2100 J",
+            "4200 J",
+            "8400 J"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "4200 J",
+          "explanation": "必要な熱量はQ = mcΔTです。Q = 0.50 × 4200 × 2.0 = 4200より、必要な熱量は4200 Jです。",
+          "formula": "Q = mcΔT"
+        },
+        {
+          "id": 32,
+          "category": "熱",
+          "unit": "熱平衡",
+          "difficulty": "normal",
+          "question": "同じ物質でできた質量の等しい2つの物体があり、一方は80 ℃、もう一方は20 ℃である。外部との熱の出入りを無視して接触させたとき、熱平衡後の温度はいくらか。",
+          "choices": [
+            "30 ℃",
+            "40 ℃",
+            "50 ℃",
+            "60 ℃"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "50 ℃",
+          "explanation": "2物体は質量と比熱が等しいため、高温物体が失う熱量と低温物体が得る熱量が等しくなる温度は平均値です。T = (80 + 20) / 2 = 50 ℃です。",
+          "formula": "mc(80 - T) = mc(T - 20)"
+        },
+        {
+          "id": 33,
+          "category": "熱",
+          "unit": "熱力学第一法則",
+          "difficulty": "normal",
+          "question": "気体が外部から500 Jの熱を受け取り、外部に200 Jの仕事をした。気体の内部エネルギーの変化はいくらか。",
+          "choices": [
+            "-700 J",
+            "-300 J",
+            "300 J",
+            "700 J"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "300 J",
+          "explanation": "熱力学第一法則Q = ΔU + Wを使います。ΔU = Q - W = 500 - 200 = 300より、内部エネルギーは300 J増加します。",
+          "formula": "Q = ΔU + W"
+        },
+        {
+          "id": 34,
+          "category": "波",
+          "unit": "周期と振動数",
+          "difficulty": "normal",
+          "question": "周期が0.25 sの波の振動数はいくらか。",
+          "choices": [
+            "0.25 Hz",
+            "2 Hz",
+            "4 Hz",
+            "8 Hz"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "4 Hz",
+          "explanation": "振動数と周期の関係はf = 1 / Tです。f = 1 / 0.25 = 4より、振動数は4 Hzです。",
+          "formula": "f = 1 / T"
+        },
+        {
+          "id": 35,
+          "category": "波",
+          "unit": "反射",
+          "difficulty": "normal",
+          "question": "固定端で横波が反射するとき、反射波の位相は入射波に対してどうなるか。",
+          "choices": [
+            "位相は変化しない",
+            "位相がπ（半周期）だけずれる",
+            "位相がπ/2だけ進む",
+            "反射波が生じない"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "位相がπ（半周期）だけずれる",
+          "explanation": "横波が固定端で反射すると、反射波の変位は上下反転し、山は谷に、谷は山になります。これは反射波の位相が入射波に対してπ、すなわち半周期だけずれることを意味します。",
+          "formula": "固定端反射の位相変化 = π"
+        },
+        {
+          "id": 36,
+          "category": "波",
+          "unit": "定常波",
+          "difficulty": "normal",
+          "question": "両端を固定した長さ0.60 mの弦に基本振動の定常波ができている。この波の波長はいくらか。",
+          "choices": [
+            "0.30 m",
+            "0.60 m",
+            "1.20 m",
+            "2.40 m"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "1.20 m",
+          "explanation": "両端固定の弦の基本振動では、弦の長さが半波長に等しくなります。L = λ / 2より、λ = 2L = 2 × 0.60 = 1.20 mです。",
+          "formula": "L = λ / 2"
+        },
+        {
+          "id": 37,
+          "category": "波",
+          "unit": "音の反射",
+          "difficulty": "normal",
+          "question": "崖に向かって音を出したところ、1.0 s後に反射音が聞こえた。音速を340 m/sとすると、崖までの距離はいくらか。",
+          "choices": [
+            "85 m",
+            "170 m",
+            "340 m",
+            "680 m"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "170 m",
+          "explanation": "音は崖まで往復しているため、進んだ全距離は2xです。2x = vt = 340 × 1.0より、x = 170 mです。",
+          "formula": "2x = vt"
+        },
+        {
+          "id": 38,
+          "category": "電気",
+          "unit": "抵抗の直列接続",
+          "difficulty": "normal",
+          "question": "2 Ωと4 Ωの抵抗を直列に接続し、全体に12 Vの電圧を加えた。回路を流れる電流はいくらか。",
+          "choices": [
+            "0.5 A",
+            "2 A",
+            "3 A",
+            "6 A"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 A",
+          "explanation": "直列接続の合成抵抗はR = 2 + 4 = 6 Ωです。オームの法則より、I = V / R = 12 / 6 = 2 Aです。",
+          "formula": "R = R₁ + R₂、I = V / R"
+        },
+        {
+          "id": 39,
+          "category": "電気",
+          "unit": "抵抗の並列接続",
+          "difficulty": "normal",
+          "question": "6 Ωと3 Ωの抵抗を並列に接続した。合成抵抗はいくらか。",
+          "choices": [
+            "1 Ω",
+            "2 Ω",
+            "4.5 Ω",
+            "9 Ω"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 Ω",
+          "explanation": "並列接続では1/R = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2です。したがって、合成抵抗はR = 2 Ωです。",
+          "formula": "1/R = 1/R₁ + 1/R₂"
+        },
+        {
+          "id": 40,
+          "category": "電気",
+          "unit": "ジュール熱",
+          "difficulty": "normal",
+          "question": "5 Ωの抵抗に2 Aの電流を10 s間流した。発生するジュール熱はいくらか。",
+          "choices": [
+            "20 J",
+            "50 J",
+            "100 J",
+            "200 J"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "200 J",
+          "explanation": "ジュール熱はQ = I²Rtで求めます。Q = 2² × 5 × 10 = 4 × 50 = 200より、発生する熱量は200 Jです。",
+          "formula": "発生する熱量 Q = I²Rt"
+        },
+        {
+          "id": 41,
+          "category": "運動とエネルギー",
+          "unit": "等加速度直線運動",
+          "difficulty": "hard",
+          "question": "初速度20 m/sで進んでいた自動車が一定の加速度で減速し、5.0 s後に停止した。停止するまでの移動距離はいくらか。",
+          "choices": [
+            "25 m",
+            "40 m",
+            "50 m",
+            "100 m"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "50 m",
+          "explanation": "加速度はa = (0 - 20) / 5.0 = -4.0 m/s²です。移動距離はx = v₀t + (1/2)at² = 20 × 5.0 + (1/2) × (-4.0) × 5.0² = 100 - 50 = 50 mです。",
+          "formula": "a = (v - v₀) / t、x = v₀t + (1/2)at²"
+        },
+        {
+          "id": 42,
+          "category": "運動とエネルギー",
+          "unit": "鉛直投げ上げ",
+          "difficulty": "hard",
+          "question": "地面から物体を鉛直上向きに20 m/sで投げ上げた。重力加速度を10 m/s²とし、空気抵抗を無視する。物体が最高点に達するまでの時間と最高点の高さの組合せとして正しいものはどれか。",
+          "choices": [
+            "1 s、10 m",
+            "2 s、20 m",
+            "2 s、40 m",
+            "4 s、20 m"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2 s、20 m",
+          "explanation": "最高点では速度が0です。上向きを正とすると、0 = 20 - 10tよりt = 2 sです。高さはh = 20 × 2 - (1/2) × 10 × 2² = 40 - 20 = 20 mです。",
+          "formula": "v = v₀ - gt、h = v₀t - (1/2)gt²"
+        },
+        {
+          "id": 43,
+          "category": "運動とエネルギー",
+          "unit": "斜面上の運動",
+          "difficulty": "hard",
+          "question": "質量2.0 kgの物体を、傾き30°の摩擦のない斜面上に置いた。重力加速度を10 m/s²、sin30° = 0.50とすると、物体の斜面方向の加速度はいくらか。",
+          "choices": [
+            "2.5 m/s²",
+            "5.0 m/s²",
+            "10 m/s²",
+            "20 m/s²"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "5.0 m/s²",
+          "explanation": "斜面方向の重力成分はmg sin30°です。運動方程式ma = mg sin30°より、a = g sin30° = 10 × 0.50 = 5.0 m/s²です。質量には依存しません。",
+          "formula": "ma = mg sinθ"
+        },
+        {
+          "id": 44,
+          "category": "運動とエネルギー",
+          "unit": "仕事と運動エネルギー",
+          "difficulty": "hard",
+          "question": "水平面上で静止していた質量4 kgの物体に、進行方向へ一定の力を加えた。物体が5 m進む間に、この力が50 Jの仕事をした。摩擦を無視すると、5 m進んだ時点の速さはいくらか。",
+          "choices": [
+            "2.5 m/s",
+            "5 m/s",
+            "10 m/s",
+            "25 m/s"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "5 m/s",
+          "explanation": "仕事と運動エネルギーの関係より、W = ΔKです。静止状態からなので、50 = (1/2) × 4 × v²です。50 = 2v²よりv² = 25、したがってv = 5 m/sです。",
+          "formula": "W = ΔK = (1/2)mv² - (1/2)mv₀²"
+        },
+        {
+          "id": 45,
+          "category": "運動とエネルギー",
+          "unit": "力学的エネルギーと摩擦",
+          "difficulty": "hard",
+          "question": "質量2 kgの物体を高さ10 mの位置から静かに滑らせた。基準面に達するまでに摩擦によって力学的エネルギーが40 J減少した。重力加速度を10 m/s²とすると、基準面での物体の速さはいくらか。",
+          "choices": [
+            "4 m/s",
+            "8 m/s",
+            "約13 m/s",
+            "約16 m/s"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "約13 m/s",
+          "explanation": "最初の重力による位置エネルギーはmgh = 2 × 10 × 10 = 200 Jです。摩擦によって力学的エネルギーが40 J減少するため、基準面での運動エネルギーは200 - 40 = 160 Jです。(1/2) × 2 × v² = 160より、v² = 160、v = √160 ≈ 12.6 m/sなので、約13 m/sです。",
+          "formula": "mgh - 40 = (1/2)mv²"
+        },
+        {
+          "id": 46,
+          "category": "熱",
+          "unit": "熱量保存",
+          "difficulty": "hard",
+          "question": "20 ℃の水200 gに、80 ℃の水100 gを混ぜた。外部との熱の出入りを無視すると、混合後の温度はいくらか。",
+          "choices": [
+            "30 ℃",
+            "40 ℃",
+            "50 ℃",
+            "60 ℃"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "40 ℃",
+          "explanation": "水の比熱をc、平衡温度をTとします。高温の水が失う熱量と低温の水が得る熱量が等しいので、100c(80 - T) = 200c(T - 20)です。8000 - 100T = 200T - 4000より、12000 = 300T、T = 40 ℃です。",
+          "formula": "m₁c(T₁ - T) = m₂c(T - T₂)"
+        },
+        {
+          "id": 47,
+          "category": "波",
+          "unit": "弦の定常波",
+          "difficulty": "hard",
+          "question": "長さ1.2 mの両端を固定した弦に、両端以外に2個の節をもつ定常波ができている。弦を伝わる波の速さが24 m/sのとき、振動数はいくらか。",
+          "choices": [
+            "10 Hz",
+            "20 Hz",
+            "30 Hz",
+            "40 Hz"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "30 Hz",
+          "explanation": "両端以外に2個の節があるため、両端を含む節は合計4個で、節と節の間は3区間です。したがって弦には3個の腹があり、第3倍振動です。L = 3λ / 2より、λ = 2L / 3 = 2 × 1.2 / 3 = 0.80 mです。f = v / λ = 24 / 0.80 = 30 Hzです。",
+          "formula": "L = nλ / 2、f = v / λ"
+        },
+        {
+          "id": 48,
+          "category": "波",
+          "unit": "気柱の共鳴",
+          "difficulty": "hard",
+          "question": "一端が閉じた気柱で基本振動が起こっている。気柱の長さが0.85 m、音速が340 m/sであるとき、振動数はいくらか。開口端補正は無視する。",
+          "choices": [
+            "50 Hz",
+            "100 Hz",
+            "200 Hz",
+            "400 Hz"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "100 Hz",
+          "explanation": "一端が閉じた気柱の基本振動では、気柱の長さは波長の4分の1です。λ = 4L = 4 × 0.85 = 3.4 mです。f = v / λ = 340 / 3.4 = 100 Hzです。",
+          "formula": "L = λ / 4、f = v / λ"
+        },
+        {
+          "id": 49,
+          "category": "電気",
+          "unit": "直並列回路",
+          "difficulty": "hard",
+          "question": "3 Ωと6 Ωの抵抗を並列に接続し、その部分に2 Ωの抵抗を直列に接続した。回路全体に12 Vの電圧を加えたとき、2 Ωの抵抗を流れる電流はいくらか。",
+          "choices": [
+            "1 A",
+            "2 A",
+            "3 A",
+            "4 A"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "3 A",
+          "explanation": "3 Ωと6 Ωの並列部分の合成抵抗は、1/R = 1/3 + 1/6 = 1/2より2 Ωです。これに直列の2 Ωを加えると、全抵抗は4 Ωです。回路全体の電流はI = 12 / 4 = 3 Aです。直列部分の2 Ωの抵抗にも3 Aが流れます。",
+          "formula": "1/R並列 = 1/3 + 1/6、R全体 = R並列 + 2、I = V / R全体"
+        },
+        {
+          "id": 50,
+          "category": "電気",
+          "unit": "電力量と効率",
+          "difficulty": "hard",
+          "question": "消費電力500 Wの装置を4分間動かしたところ、装置から有効なエネルギーとして72 kJが得られた。この装置のエネルギー変換効率はいくらか。",
+          "choices": [
+            "15%",
+            "40%",
+            "60%",
+            "75%"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "60%",
+          "explanation": "入力エネルギーはE = Ptです。4分 = 240 sなので、E入力 = 500 × 240 = 120000 J = 120 kJです。効率は72 / 120 × 100 = 60%です。",
+          "formula": "E = Pt、効率 = 有効な出力エネルギー / 入力エネルギー × 100"
+        }
+      ]
+    },
+    {
+      "subjectId": "basic_chem",
+      "subject": "化学基礎",
+      "questions": [
+        {
+          "id": 1,
+          "category": "物質の構成",
+          "unit": "純物質と混合物",
+          "difficulty": "easy",
+          "question": "純物質の説明として正しいものはどれか。",
+          "choices": [
+            "1種類の物質だけからなる",
+            "2種類以上の物質が均一に混ざる",
+            "化学変化でしか分離できない",
+            "必ず液体である"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "1種類の物質だけからなる",
+          "explanation": "純物質は1種類の物質だけからなり、一定の性質と組成を示します。純物質には、酸素や銅などの単体と、水や塩化ナトリウムなどの化合物があります。"
+        },
+        {
+          "id": 2,
+          "category": "物質の構成",
+          "unit": "混合物",
+          "difficulty": "easy",
+          "question": "次のうち混合物はどれか。",
+          "choices": [
+            "酸素",
+            "水",
+            "食塩水",
+            "銅"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "食塩水",
+          "explanation": "食塩水は水と食塩が混ざった混合物です。"
+        },
+        {
+          "id": 3,
+          "category": "原子の構造",
+          "unit": "原子",
+          "difficulty": "easy",
+          "question": "原子核の中に存在する粒子の組み合わせはどれか。",
+          "choices": [
+            "電子と陽子",
+            "陽子と中性子",
+            "電子と中性子",
+            "電子のみ"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "陽子と中性子",
+          "explanation": "原子核は陽子と中性子から構成されます。"
+        },
+        {
+          "id": 4,
+          "category": "原子の構造",
+          "unit": "電子",
+          "difficulty": "easy",
+          "question": "電子がもつ電荷はどれか。",
+          "choices": [
+            "正の電荷",
+            "負の電荷",
+            "電荷をもたない",
+            "場合によって変わる"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "負の電荷",
+          "explanation": "電子は負の電荷をもつ粒子です。"
+        },
+        {
+          "id": 5,
+          "category": "周期表",
+          "unit": "元素",
+          "difficulty": "easy",
+          "question": "元素記号Oで表される元素はどれか。",
+          "choices": [
+            "金",
+            "酸素",
+            "オゾン",
+            "銀"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "酸素",
+          "explanation": "Oは酸素元素の元素記号です。オゾンは酸素原子からなる物質で、化学式はO3です。"
+        },
+        {
+          "id": 6,
+          "category": "周期表",
+          "unit": "元素",
+          "difficulty": "easy",
+          "question": "次のうちアルカリ金属はどれか。",
+          "choices": [
+            "Na",
+            "Mg",
+            "Al",
+            "Ne"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "Na",
+          "explanation": "Na（ナトリウム）は1族元素で、アルカリ金属に分類されます。"
+        },
+        {
+          "id": 7,
+          "category": "イオン",
+          "unit": "陽イオン",
+          "difficulty": "easy",
+          "question": "Naが1個の電子を失ってできるイオンはどれか。",
+          "choices": [
+            "Na−",
+            "Na+",
+            "Na2+",
+            "Na"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "Na+",
+          "explanation": "ナトリウム原子は電子を1個失って、1価の陽イオンであるNa+になります。"
+        },
+        {
+          "id": 8,
+          "category": "イオン",
+          "unit": "陰イオン",
+          "difficulty": "easy",
+          "question": "塩化物イオンのイオン式はどれか。",
+          "choices": [
+            "Cl+",
+            "Cl",
+            "Cl−",
+            "Cl2−"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "Cl−",
+          "explanation": "塩素原子が電子を1個受け取ると、1価の陰イオンであるCl−になります。"
+        },
+        {
+          "id": 9,
+          "category": "化学結合",
+          "unit": "イオン結合",
+          "difficulty": "easy",
+          "question": "イオン結合によってできる物質はどれか。",
+          "choices": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "O2"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "NaCl",
+          "explanation": "NaClはNa+とCl−の静電気的な引力によるイオン結合でできています。"
+        },
+        {
+          "id": 10,
+          "category": "化学結合",
+          "unit": "共有結合",
+          "difficulty": "easy",
+          "question": "共有結合の説明として正しいものはどれか。",
+          "choices": [
+            "電子を放出して結びつく",
+            "電子を受け渡して結びつく",
+            "価電子を共有して結びつく",
+            "陽子を共有して結びつく"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "価電子を共有して結びつく",
+          "explanation": "共有結合は、原子どうしが価電子を共有することによって形成されます。"
+        },
+        {
+          "id": 11,
+          "category": "分子",
+          "unit": "分子の表し方",
+          "difficulty": "easy",
+          "question": "酸素分子の化学式はどれか。",
+          "choices": [
+            "O",
+            "O2",
+            "O3",
+            "H2O"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "O2",
+          "explanation": "酸素分子は酸素原子2個からなるため、化学式はO2です。"
+        },
+        {
+          "id": 12,
+          "category": "化学結合",
+          "unit": "金属結合",
+          "difficulty": "easy",
+          "question": "金属結合をもつ物質に共通する性質として適切なものはどれか。",
+          "choices": [
+            "電気を通しやすい",
+            "水に必ず溶ける",
+            "必ず気体である",
+            "もろい"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "電気を通しやすい",
+          "explanation": "金属には自由電子が存在するため、一般に電気を通しやすい性質があります。"
+        },
+        {
+          "id": 13,
+          "category": "物質量",
+          "unit": "mol",
+          "difficulty": "easy",
+          "question": "高校化学の計算で用いる1 molあたりの粒子数として正しいものはどれか。",
+          "choices": [
+            "6.0×10^20個",
+            "6.0×10^21個",
+            "6.0×10^22個",
+            "6.0×10^23個"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "6.0×10^23個",
+          "explanation": "1 molには約6.0×10^23個の粒子が含まれます。この値をアボガドロ定数といい、化学基礎では通常6.0×10^23 /molとして計算します。"
+        },
+        {
+          "id": 14,
+          "category": "物質量",
+          "unit": "モル質量",
+          "difficulty": "easy",
+          "question": "原子量をH=1、O=16とすると、H2Oのモル質量は何g/molか。",
+          "choices": [
+            "16",
+            "18",
+            "20",
+            "36"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "18",
+          "explanation": "H2Oのモル質量は、1×2+16=18 g/molです。"
+        },
+        {
+          "id": 15,
+          "category": "化学反応式",
+          "unit": "反応式",
+          "difficulty": "easy",
+          "question": "水素と酸素から水ができる反応式として正しいものはどれか。",
+          "choices": [
+            "H2+O2→H2O",
+            "2H2+O2→2H2O",
+            "H2+O→H2O",
+            "2H+O→H2O"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "2H2+O2→2H2O",
+          "explanation": "反応前後で水素原子と酸素原子の数が等しくなるように係数を付けると、2H2+O2→2H2Oとなります。"
+        },
+        {
+          "id": 16,
+          "category": "酸と塩基",
+          "unit": "酸",
+          "difficulty": "easy",
+          "question": "アレニウスの定義による酸の説明として正しいものはどれか。",
+          "choices": [
+            "水溶液中でOH−を生じる",
+            "水溶液中でH+を生じる",
+            "必ず無色である",
+            "必ず強い電解質である"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "水溶液中でH+を生じる",
+          "explanation": "アレニウスの定義では、水溶液中で水素イオンH+を生じる物質を酸といいます。"
+        },
+        {
+          "id": 17,
+          "category": "酸と塩基",
+          "unit": "塩基",
+          "difficulty": "easy",
+          "question": "塩基に分類される物質はどれか。",
+          "choices": [
+            "HCl",
+            "HNO3",
+            "NaOH",
+            "CO2"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "NaOH",
+          "explanation": "NaOHは水溶液中でOH−を生じる塩基です。"
+        },
+        {
+          "id": 18,
+          "category": "酸化還元",
+          "unit": "酸化",
+          "difficulty": "easy",
+          "question": "酸化の説明として適切なものはどれか。",
+          "choices": [
+            "電子を受け取る",
+            "電子を失う",
+            "陽子を失う",
+            "中性になる"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "電子を失う",
+          "explanation": "酸化は、物質が電子を失う変化として定義できます。"
+        },
+        {
+          "id": 19,
+          "category": "電池",
+          "unit": "電池の原理",
+          "difficulty": "easy",
+          "question": "電池で起こる反応はどれか。",
+          "choices": [
+            "中和反応のみ",
+            "酸化還元反応",
+            "分解反応のみ",
+            "昇華"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "酸化還元反応",
+          "explanation": "電池は酸化還元反応によって化学エネルギーを電気エネルギーとして取り出す装置です。"
+        },
+        {
+          "id": 20,
+          "category": "電気分解",
+          "unit": "電解",
+          "difficulty": "easy",
+          "question": "電気分解で、負の電極である陰極に引き寄せられる粒子はどれか。",
+          "choices": [
+            "陽イオン",
+            "陰イオン",
+            "中性分子",
+            "中性子"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "陽イオン",
+          "explanation": "電気分解では陰極が負の電極になるため、正の電荷をもつ陽イオンが引き寄せられます。陰極では還元反応が起こります。"
+        },
+        {
+          "id": 21,
+          "category": "原子の構造",
+          "unit": "原子番号",
+          "difficulty": "normal",
+          "question": "原子番号が表すものはどれか。",
+          "choices": [
+            "中性子数",
+            "電子数",
+            "陽子数",
+            "質量数"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "陽子数",
+          "explanation": "原子番号は原子核中の陽子数を表します。中性原子では陽子数と電子数が等しくなります。"
+        },
+        {
+          "id": 22,
+          "category": "原子の構造",
+          "unit": "質量数",
+          "difficulty": "normal",
+          "question": "質量数23、陽子数11の原子の中性子数はいくつか。",
+          "choices": [
+            "11",
+            "12",
+            "23",
+            "34"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "12",
+          "explanation": "中性子数は質量数から陽子数を引いて求めます。23−11=12です。"
+        },
+        {
+          "id": 23,
+          "category": "電子配置",
+          "unit": "電子殻",
+          "difficulty": "normal",
+          "question": "原子番号8の酸素原子の最外殻電子数はいくつか。",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "6",
+          "explanation": "酸素原子は8個の電子をもち、電子配置は2,6です。したがって、最外殻電子数は6個です。"
+        },
+        {
+          "id": 24,
+          "category": "周期表",
+          "unit": "族と周期",
+          "difficulty": "normal",
+          "question": "同じ族に属する典型元素に共通する特徴として、最も適切なものはどれか。",
+          "choices": [
+            "質量数",
+            "最外殻電子数",
+            "中性子数",
+            "原子量"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "最外殻電子数",
+          "explanation": "同じ族に属する典型元素は、原則として最外殻電子数が同じであるため、互いに似た化学的性質を示します。"
+        },
+        {
+          "id": 25,
+          "category": "イオン",
+          "unit": "多原子イオン",
+          "difficulty": "normal",
+          "question": "硫酸イオンのイオン式はどれか。",
+          "choices": [
+            "SO3^2−",
+            "SO4^2−",
+            "NO3−",
+            "CO3^2−"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "SO4^2−",
+          "explanation": "硫酸イオンはSO4^2−です。"
+        },
+        {
+          "id": 26,
+          "category": "化学結合",
+          "unit": "共有結合",
+          "difficulty": "normal",
+          "question": "二重結合をもつ分子はどれか。",
+          "choices": [
+            "H2",
+            "O2",
+            "Cl2",
+            "CH4"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "O2",
+          "explanation": "酸素分子O2では、酸素原子どうしが二重結合しています。"
+        },
+        {
+          "id": 27,
+          "category": "化学結合",
+          "unit": "物質の分類",
+          "difficulty": "normal",
+          "question": "分子からなる物質はどれか。",
+          "choices": [
+            "NaCl",
+            "Cu",
+            "CO2",
+            "MgO"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "CO2",
+          "explanation": "CO2は共有結合によってできた二酸化炭素分子からなる物質です。NaClとMgOはイオン結晶、Cuは金属結晶です。"
+        },
+        {
+          "id": 28,
+          "category": "物質量",
+          "unit": "mol",
+          "difficulty": "normal",
+          "question": "0.5 molのCO2に含まれるCO2分子の数は何個か。アボガドロ定数を6.0×10^23 /molとする。",
+          "choices": [
+            "3.0×10^22個",
+            "3.0×10^23個",
+            "6.0×10^23個",
+            "1.2×10^24個"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "3.0×10^23個",
+          "explanation": "粒子数は物質量×アボガドロ定数で求めます。0.5×6.0×10^23=3.0×10^23個です。"
+        },
+        {
+          "id": 29,
+          "category": "物質量",
+          "unit": "モル計算",
+          "difficulty": "normal",
+          "question": "原子量をC=12、O=16とすると、22 gのCO2は何molか。",
+          "choices": [
+            "0.25 mol",
+            "0.5 mol",
+            "1.0 mol",
+            "2.0 mol"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "0.5 mol",
+          "explanation": "CO2のモル質量は12+16×2=44 g/molです。したがって、物質量は22÷44=0.5 molです。"
+        },
+        {
+          "id": 30,
+          "category": "化学反応式",
+          "unit": "化学量論",
+          "difficulty": "normal",
+          "question": "2H2+O2→2H2Oにおいて、水素2 molが完全に反応すると、理論上何molの水ができるか。酸素は十分にあるものとする。",
+          "choices": [
+            "0.5 mol",
+            "1 mol",
+            "2 mol",
+            "4 mol"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "2 mol",
+          "explanation": "反応式の係数比よりH2とH2Oの物質量の比は1:1です。したがって、水素2 molから水2 molが生成します。"
+        },
+        {
+          "id": 31,
+          "category": "酸と塩基",
+          "unit": "pH",
+          "difficulty": "normal",
+          "question": "同じ温度条件で、水溶液のpHが小さくなるほど一般にどうなるか。",
+          "choices": [
+            "酸性が弱くなる",
+            "中性に近づく",
+            "酸性が強くなる",
+            "塩基性が強くなる"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "酸性が強くなる",
+          "explanation": "同じ温度条件では、pHが低いほど水素イオン濃度が高く、酸性が強いことを示します。"
+        },
+        {
+          "id": 32,
+          "category": "酸と塩基",
+          "unit": "中和",
+          "difficulty": "normal",
+          "question": "塩酸と水酸化ナトリウム水溶液の中和で生じる塩はどれか。",
+          "choices": [
+            "NaCl",
+            "Na2SO4",
+            "KCl",
+            "NH4Cl"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "NaCl",
+          "explanation": "HClとNaOHの中和では、NaClと水が生成します。反応式はHCl+NaOH→NaCl+H2Oです。"
+        },
+        {
+          "id": 33,
+          "category": "酸と塩基",
+          "unit": "塩",
+          "difficulty": "normal",
+          "question": "次のうち、塩に分類される物質はどれか。",
+          "choices": [
+            "NaCl",
+            "HCl",
+            "NaOH",
+            "NH3"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "NaCl",
+          "explanation": "NaClはナトリウムイオンNa+と塩化物イオンCl−からなる塩です。塩酸と水酸化ナトリウムの中和によっても生成します。"
+        },
+        {
+          "id": 34,
+          "category": "酸化還元",
+          "unit": "酸化数",
+          "difficulty": "normal",
+          "question": "単体の酸素O2における酸素の酸化数は何か。",
+          "choices": [
+            "−2",
+            "−1",
+            "0",
+            "+2"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "0",
+          "explanation": "単体を構成する元素の酸化数は0です。したがって、O2中の酸素の酸化数は0です。"
+        },
+        {
+          "id": 35,
+          "category": "酸化還元",
+          "unit": "酸化数",
+          "difficulty": "normal",
+          "question": "H2Oにおける酸素の酸化数は何か。",
+          "choices": [
+            "−2",
+            "−1",
+            "0",
+            "+1"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "−2",
+          "explanation": "H2Oでは水素の酸化数が+1で、分子全体の酸化数の合計が0になるため、酸素の酸化数は−2です。"
+        },
+        {
+          "id": 36,
+          "category": "酸化還元",
+          "unit": "還元",
+          "difficulty": "normal",
+          "question": "還元の説明として正しいものはどれか。",
+          "choices": [
+            "電子を失う",
+            "電子を受け取る",
+            "酸素を受け取る",
+            "水素を失う"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "電子を受け取る",
+          "explanation": "還元は、物質が電子を受け取る変化です。"
+        },
+        {
+          "id": 37,
+          "category": "電池",
+          "unit": "ダニエル電池",
+          "difficulty": "normal",
+          "question": "ダニエル電池で酸化が起こる電極はどれか。",
+          "choices": [
+            "正極",
+            "負極",
+            "どちらでもない",
+            "電解液"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "負極",
+          "explanation": "ダニエル電池では負極の亜鉛極でZn→Zn2++2e−の酸化反応が起こります。"
+        },
+        {
+          "id": 38,
+          "category": "電気分解",
+          "unit": "水の電気分解",
+          "difficulty": "normal",
+          "question": "少量の硫酸を加えた水を不活性電極で電気分解したとき、陽極に発生する気体はどれか。",
+          "choices": [
+            "水素",
+            "酸素",
+            "窒素",
+            "塩素"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "酸素",
+          "explanation": "少量の硫酸を加えた水を不活性電極で電気分解すると、陽極では水が酸化されて酸素が発生し、陰極では水素イオンが還元されて水素が発生します。"
+        },
+        {
+          "id": 39,
+          "category": "物質の性質",
+          "unit": "電解質",
+          "difficulty": "normal",
+          "question": "電解質の水溶液が電気を通す主な理由はどれか。",
+          "choices": [
+            "分子が動くから",
+            "イオンが存在して移動するから",
+            "原子が大きいから",
+            "色がついているから"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "イオンが存在して移動するから",
+          "explanation": "電解質の水溶液では、陽イオンと陰イオンが移動して電気を運ぶため、電流が流れます。"
+        },
+        {
+          "id": 40,
+          "category": "化学結合",
+          "unit": "物質の性質",
+          "difficulty": "normal",
+          "question": "イオン結晶の特徴として適切なものはどれか。",
+          "choices": [
+            "融点が低い",
+            "固体では電気を通しやすい",
+            "融解すると電気を通す",
+            "必ず気体である"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "融解すると電気を通す",
+          "explanation": "固体のイオン結晶ではイオンが決まった位置にあり動けませんが、融解状態や水溶液ではイオンが移動できるため電気を通します。"
+        },
+        {
+          "id": 41,
+          "category": "電子配置",
+          "unit": "電子殻",
+          "difficulty": "hard",
+          "question": "原子番号17の塩素原子の電子配置として正しいものはどれか。",
+          "choices": [
+            "2,8,7",
+            "2,7,8",
+            "2,8,8",
+            "2,6,9"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "2,8,7",
+          "explanation": "塩素原子は17個の電子をもち、内側の電子殻から2,8,7と配置されます。"
+        },
+        {
+          "id": 42,
+          "category": "周期表",
+          "unit": "周期性",
+          "difficulty": "hard",
+          "question": "NaとKに共通する性質として最も適切なものはどれか。",
+          "choices": [
+            "希ガスである",
+            "最外殻電子が1個である",
+            "陰イオンになりやすい",
+            "共有結合のみを形成する"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "最外殻電子が1個である",
+          "explanation": "NaとKはともに1族のアルカリ金属で、最外殻電子を1個もち、その電子を失って1価の陽イオンになりやすい元素です。"
+        },
+        {
+          "id": 43,
+          "category": "物質量",
+          "unit": "粒子数計算",
+          "difficulty": "hard",
+          "question": "原子量をC=12とすると、12 gの炭素は何molか。",
+          "choices": [
+            "0.5 mol",
+            "1 mol",
+            "2 mol",
+            "12 mol"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "1 mol",
+          "explanation": "炭素のモル質量は12 g/molなので、物質量は12÷12=1 molです。"
+        },
+        {
+          "id": 44,
+          "category": "物質量",
+          "unit": "粒子数計算",
+          "difficulty": "hard",
+          "question": "0.25 molのNaClに含まれる式量単位の数は何個か。アボガドロ定数を6.0×10^23 /molとする。",
+          "choices": [
+            "1.5×10^23個",
+            "3.0×10^23個",
+            "6.0×10^23個",
+            "2.4×10^24個"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "1.5×10^23個",
+          "explanation": "式量単位の数は0.25×6.0×10^23=1.5×10^23個です。イオン結晶であるNaClでは、分子ではなく式量単位として数えます。"
+        },
+        {
+          "id": 45,
+          "category": "化学反応式",
+          "unit": "量的関係",
+          "difficulty": "hard",
+          "question": "N2+3H2→2NH3において、H2が6 mol完全に反応するとNH3は何mol生成するか。N2は十分にあるものとする。",
+          "choices": [
+            "2 mol",
+            "3 mol",
+            "4 mol",
+            "6 mol"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "4 mol",
+          "explanation": "反応式の係数比よりH2とNH3の物質量の比は3:2です。したがって、6 molのH2から6×2/3=4 molのNH3が生成します。"
+        },
+        {
+          "id": 46,
+          "category": "酸と塩基",
+          "unit": "水素イオン濃度",
+          "difficulty": "hard",
+          "question": "水素イオン濃度を[H+]=1.0×10^−pH mol/Lとして扱えるとき、pH=3の水溶液のH+濃度はどれか。",
+          "choices": [
+            "1×10^−1 mol/L",
+            "1×10^−2 mol/L",
+            "1×10^−3 mol/L",
+            "1×10^−4 mol/L"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "1×10^−3 mol/L",
+          "explanation": "pH=−log10[H+]より、pH=3のとき[H+]=1.0×10^−3 mol/Lです。"
+        },
+        {
+          "id": 47,
+          "category": "酸化還元",
+          "unit": "酸化数",
+          "difficulty": "hard",
+          "question": "H2O2における酸素の酸化数は何か。",
+          "choices": [
+            "−2",
+            "−1",
+            "0",
+            "+1"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "−1",
+          "explanation": "過酸化水素H2O2は過酸化物であり、酸素の酸化数は例外的に−1です。"
+        },
+        {
+          "id": 48,
+          "category": "電池",
+          "unit": "酸化還元反応",
+          "difficulty": "hard",
+          "question": "Zn→Zn2++2e−の変化は何に当たるか。",
+          "choices": [
+            "還元",
+            "中和",
+            "酸化",
+            "電離"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "酸化",
+          "explanation": "亜鉛が電子を失っているため、この変化は酸化です。"
+        },
+        {
+          "id": 49,
+          "category": "電気分解",
+          "unit": "塩化銅水溶液",
+          "difficulty": "hard",
+          "question": "塩化銅（II）水溶液を不活性電極で電気分解したとき、陰極に析出する物質はどれか。",
+          "choices": [
+            "酸素",
+            "塩素",
+            "銅",
+            "水素"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "銅",
+          "explanation": "陰極では銅イオンCu2+が電子を受け取って還元され、単体の銅として析出します。反応はCu2++2e−→Cuです。"
+        },
+        {
+          "id": 50,
+          "category": "化学結合",
+          "unit": "物質の性質",
+          "difficulty": "hard",
+          "question": "次のうち共有結合の結晶はどれか。",
+          "choices": [
+            "NaCl",
+            "SiO2",
+            "Cu",
+            "MgO"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "SiO2",
+          "explanation": "SiO2は共有結合が結晶全体に広がった共有結合の結晶です。NaClとMgOはイオン結晶、Cuは金属結晶です。"
+        }
+      ]
+    },
+    {
+      "subjectId": "basic_bio",
+      "subject": "生物基礎",
+      "questions": [
+        {
+          "id": 1,
+          "category": "生物の特徴",
+          "unit": "生物の共通性",
+          "difficulty": "easy",
+          "question": "すべての生物に共通してみられる特徴として最も適切なものはどれか。",
+          "choices": [
+            "細胞からできている",
+            "光合成を行う",
+            "脳をもつ",
+            "多細胞である"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "細胞からできている",
+          "explanation": "生物は細胞を基本単位として成り立っています。細胞構造をもたないウイルスは、通常、生物とは区別して扱われます。"
+        },
+        {
+          "id": 2,
+          "category": "細胞",
+          "unit": "細胞の構造",
+          "difficulty": "easy",
+          "question": "細胞の内外を区切る構造はどれか。",
+          "choices": [
+            "核",
+            "細胞膜",
+            "ミトコンドリア",
+            "葉緑体"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "細胞膜",
+          "explanation": "細胞膜は細胞の境界となり、物質の出入りを調節します。"
+        },
+        {
+          "id": 3,
+          "category": "細胞",
+          "unit": "細胞小器官",
+          "difficulty": "easy",
+          "question": "光合成を行う細胞小器官はどれか。",
+          "choices": [
+            "液胞",
+            "ゴルジ体",
+            "葉緑体",
+            "リボソーム"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "葉緑体",
+          "explanation": "葉緑体は光エネルギーを利用して有機物を合成します。"
+        },
+        {
+          "id": 4,
+          "category": "DNAと遺伝情報",
+          "unit": "DNA",
+          "difficulty": "easy",
+          "question": "遺伝情報を担う物質はどれか。",
+          "choices": [
+            "ATP",
+            "タンパク質",
+            "脂質",
+            "DNA"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "DNA",
+          "explanation": "DNAには生物の遺伝情報が保存されています。"
+        },
+        {
+          "id": 5,
+          "category": "遺伝子とタンパク質",
+          "unit": "タンパク質",
+          "difficulty": "easy",
+          "question": "酵素や筋肉の主成分となり、体の構造や働きに深く関わる物質はどれか。",
+          "choices": [
+            "タンパク質",
+            "水",
+            "酸素",
+            "二酸化炭素"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "タンパク質",
+          "explanation": "タンパク質は、酵素、筋肉、抗体などの成分となり、体の構造やさまざまな生命活動に関わります。"
+        },
+        {
+          "id": 6,
+          "category": "体内環境",
+          "unit": "恒常性",
+          "difficulty": "easy",
+          "question": "体内環境を一定に保つ性質を何というか。",
+          "choices": [
+            "進化",
+            "発生",
+            "恒常性",
+            "適応"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "恒常性",
+          "explanation": "恒常性（ホメオスタシス）は体内環境を安定に保つ仕組みです。"
+        },
+        {
+          "id": 7,
+          "category": "体内環境",
+          "unit": "血液",
+          "difficulty": "easy",
+          "question": "酸素を運搬する血液成分はどれか。",
+          "choices": [
+            "血小板",
+            "赤血球",
+            "リンパ球",
+            "血しょう"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "赤血球",
+          "explanation": "赤血球中のヘモグロビンが酸素を運搬します。"
+        },
+        {
+          "id": 8,
+          "category": "ホルモン",
+          "unit": "内分泌",
+          "difficulty": "easy",
+          "question": "血糖濃度を下げるホルモンはどれか。",
+          "choices": [
+            "アドレナリン",
+            "インスリン",
+            "チロキシン",
+            "成長ホルモン"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "インスリン",
+          "explanation": "インスリンは、細胞へのグルコースの取り込みや、肝臓・筋肉でのグリコーゲン合成などを促進し、血糖濃度を低下させます。"
+        },
+        {
+          "id": 9,
+          "category": "自律神経",
+          "unit": "神経系",
+          "difficulty": "easy",
+          "question": "心拍数を増加させる働きが強いのはどれか。",
+          "choices": [
+            "副交感神経",
+            "感覚神経",
+            "運動神経",
+            "交感神経"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "交感神経",
+          "explanation": "交感神経は活動時に心拍数を増加させます。"
+        },
+        {
+          "id": 10,
+          "category": "免疫",
+          "unit": "自然免疫",
+          "difficulty": "easy",
+          "question": "体内に侵入した細菌などを取り込んで分解する細胞はどれか。",
+          "choices": [
+            "食細胞",
+            "赤血球",
+            "神経細胞",
+            "筋細胞"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "食細胞",
+          "explanation": "食細胞は異物を取り込み、分解します。"
+        },
+        {
+          "id": 11,
+          "category": "生態系",
+          "unit": "生態系の構成",
+          "difficulty": "easy",
+          "question": "生態系において生産者にあたるものはどれか。",
+          "choices": [
+            "植物",
+            "ウサギ",
+            "ヘビ",
+            "菌類"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "植物",
+          "explanation": "植物は光合成によって有機物を生産します。"
+        },
+        {
+          "id": 12,
+          "category": "食物連鎖",
+          "unit": "エネルギーの流れ",
+          "difficulty": "easy",
+          "question": "食物連鎖の出発点となることが多い生物はどれか。",
+          "choices": [
+            "肉食動物",
+            "植物",
+            "分解者",
+            "雑食動物"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "植物",
+          "explanation": "植物は太陽エネルギーを利用して有機物を生産します。"
+        },
+        {
+          "id": 13,
+          "category": "生物多様性",
+          "unit": "多様性",
+          "difficulty": "easy",
+          "question": "生態系・種・遺伝子の多様性をまとめて何というか。",
+          "choices": [
+            "恒常性",
+            "生物多様性",
+            "自然選択",
+            "生態ピラミッド"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "生物多様性",
+          "explanation": "生物多様性は、生態系の多様性、種の多様性、遺伝的多様性を含む概念です。"
+        },
+        {
+          "id": 14,
+          "category": "バイオーム",
+          "unit": "陸上バイオーム",
+          "difficulty": "easy",
+          "question": "降水量が少なく乾燥した地域に成立するバイオームはどれか。",
+          "choices": [
+            "熱帯多雨林",
+            "照葉樹林",
+            "砂漠",
+            "夏緑樹林"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "砂漠",
+          "explanation": "砂漠は降水量が極めて少ない環境に成立します。"
+        },
+        {
+          "id": 15,
+          "category": "環境問題",
+          "unit": "地球環境",
+          "difficulty": "easy",
+          "question": "人間活動による現在の地球温暖化を進める主な温室効果ガスとして、最も適切なものはどれか。",
+          "choices": [
+            "窒素",
+            "酸素",
+            "水素",
+            "二酸化炭素"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "二酸化炭素",
+          "explanation": "化石燃料の燃焼などによって大気中の二酸化炭素濃度が上昇すると、温室効果が強まり、地球温暖化が進みます。"
+        },
+        {
+          "id": 16,
+          "category": "DNAと遺伝情報",
+          "unit": "染色体",
+          "difficulty": "easy",
+          "question": "DNAが主に存在する細胞内の構造はどれか。",
+          "choices": [
+            "核",
+            "液胞",
+            "細胞壁",
+            "中心体"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "核",
+          "explanation": "真核細胞ではDNAの多くが核内に存在します。"
+        },
+        {
+          "id": 17,
+          "category": "細胞",
+          "unit": "植物細胞",
+          "difficulty": "easy",
+          "question": "植物細胞にあって動物細胞にない構造はどれか。",
+          "choices": [
+            "細胞膜",
+            "細胞壁",
+            "核",
+            "ミトコンドリア"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "細胞壁",
+          "explanation": "細胞壁は植物細胞の細胞膜の外側にある丈夫な構造です。"
+        },
+        {
+          "id": 18,
+          "category": "体内環境",
+          "unit": "血液",
+          "difficulty": "easy",
+          "question": "血液を液体成分と細胞成分に分けたとき、液体成分を何というか。",
+          "choices": [
+            "リンパ液",
+            "組織液",
+            "血しょう",
+            "ヘモグロビン"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "血しょう",
+          "explanation": "血しょうは血液の液体成分で、物質の運搬を担います。"
+        },
+        {
+          "id": 19,
+          "category": "免疫",
+          "unit": "予防接種",
+          "difficulty": "easy",
+          "question": "ワクチン接種によって得られる免疫はどれか。",
+          "choices": [
+            "自然免疫",
+            "非特異的免疫",
+            "受動免疫",
+            "能動免疫"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "能動免疫",
+          "explanation": "ワクチンは接種を受けた人自身の免疫反応を起こし、抗体や記憶細胞を形成させるため、能動免疫にあたります。"
+        },
+        {
+          "id": 20,
+          "category": "生態系",
+          "unit": "分解者",
+          "difficulty": "easy",
+          "question": "落ち葉や生物の死骸を分解する生物として適切なのはどれか。",
+          "choices": [
+            "菌類",
+            "植物",
+            "魚類",
+            "鳥類"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "菌類",
+          "explanation": "菌類は有機物を分解し、無機物へ戻す役割を担います。"
+        },
+        {
+          "id": 21,
+          "category": "細胞",
+          "unit": "細胞小器官",
+          "difficulty": "normal",
+          "question": "細胞内でタンパク質合成の場となる構造はどれか。",
+          "choices": [
+            "リボソーム",
+            "葉緑体",
+            "液胞",
+            "中心体"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "リボソーム",
+          "explanation": "リボソームではmRNAの情報をもとにタンパク質が合成されます。"
+        },
+        {
+          "id": 22,
+          "category": "細胞",
+          "unit": "細胞小器官",
+          "difficulty": "normal",
+          "question": "細胞内でタンパク質などの加工や分泌に関わる構造はどれか。",
+          "choices": [
+            "ミトコンドリア",
+            "ゴルジ体",
+            "核",
+            "細胞壁"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "ゴルジ体",
+          "explanation": "ゴルジ体は、小胞体などで合成されたタンパク質を加工・仕分けし、細胞内外へ輸送する働きに関わります。"
+        },
+        {
+          "id": 23,
+          "category": "DNAと遺伝情報",
+          "unit": "DNAの構造",
+          "difficulty": "normal",
+          "question": "DNAを構成する糖はどれか。",
+          "choices": [
+            "グルコース",
+            "リボース",
+            "デオキシリボース",
+            "ショ糖"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "デオキシリボース",
+          "explanation": "DNAはデオキシリボースを含むヌクレオチドから成ります。"
+        },
+        {
+          "id": 24,
+          "category": "遺伝子とタンパク質",
+          "unit": "遺伝情報の発現",
+          "difficulty": "normal",
+          "question": "DNAの塩基配列の情報を写し取り、タンパク質合成の場へ運ぶRNAはどれか。",
+          "choices": [
+            "rRNA",
+            "tRNA",
+            "DNAポリメラーゼ",
+            "mRNA"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "mRNA",
+          "explanation": "mRNAは、DNAの塩基配列の情報が転写されてでき、タンパク質合成の場であるリボソームへその情報を運びます。"
+        },
+        {
+          "id": 25,
+          "category": "体内環境",
+          "unit": "循環系",
+          "difficulty": "normal",
+          "question": "血液からしみ出して細胞を取り囲む液体はどれか。",
+          "choices": [
+            "組織液",
+            "血しょう",
+            "リンパ球",
+            "胆汁"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "組織液",
+          "explanation": "組織液は細胞と血液の間で物質交換を行います。"
+        },
+        {
+          "id": 26,
+          "category": "体内環境",
+          "unit": "リンパ系",
+          "difficulty": "normal",
+          "question": "組織液の一部がリンパ管に入ったものを何というか。",
+          "choices": [
+            "血しょう",
+            "リンパ液",
+            "汗",
+            "尿"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "リンパ液",
+          "explanation": "リンパ液はリンパ管内を流れ、最終的に静脈へ戻ることで体液循環に関わります。"
+        },
+        {
+          "id": 27,
+          "category": "ホルモン",
+          "unit": "内分泌腺",
+          "difficulty": "normal",
+          "question": "チロキシンを分泌する器官はどれか。",
+          "choices": [
+            "膵臓",
+            "副腎",
+            "甲状腺",
+            "脳下垂体"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "甲状腺",
+          "explanation": "甲状腺は代謝を調節するチロキシンを分泌します。"
+        },
+        {
+          "id": 28,
+          "category": "ホルモン",
+          "unit": "血糖調節",
+          "difficulty": "normal",
+          "question": "血糖濃度を上昇させるホルモンはどれか。",
+          "choices": [
+            "インスリン",
+            "エストロゲン",
+            "プロゲステロン",
+            "グルカゴン"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "グルカゴン",
+          "explanation": "グルカゴンは肝臓でグリコーゲンの分解などを促進し、血糖濃度を上昇させます。"
+        },
+        {
+          "id": 29,
+          "category": "自律神経",
+          "unit": "神経系",
+          "difficulty": "normal",
+          "question": "消化活動を活発にする働きが強いのはどれか。",
+          "choices": [
+            "副交感神経",
+            "交感神経",
+            "体性神経",
+            "感覚神経"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "副交感神経",
+          "explanation": "副交感神経は休息時に消化活動を促進します。"
+        },
+        {
+          "id": 30,
+          "category": "免疫",
+          "unit": "獲得免疫",
+          "difficulty": "normal",
+          "question": "B細胞が抗原の刺激を受けて分化し、抗体を大量に産生する細胞はどれか。",
+          "choices": [
+            "赤血球",
+            "抗体産生細胞",
+            "血小板",
+            "好中球"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "抗体産生細胞",
+          "explanation": "B細胞は抗原の刺激を受けると増殖し、その一部が抗体産生細胞に分化して抗体を大量に産生します。"
+        },
+        {
+          "id": 31,
+          "category": "免疫",
+          "unit": "抗原抗体反応",
+          "difficulty": "normal",
+          "question": "抗体が特異的に結合する相手はどれか。",
+          "choices": [
+            "酵素",
+            "ホルモン",
+            "抗原",
+            "DNA"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "抗原",
+          "explanation": "抗体は対応する抗原と特異的に結合します。"
+        },
+        {
+          "id": 32,
+          "category": "生態系",
+          "unit": "エネルギーの流れ",
+          "difficulty": "normal",
+          "question": "食物連鎖を通じてエネルギーが移動する方向として正しいのはどれか。",
+          "choices": [
+            "消費者→生産者",
+            "分解者→生産者",
+            "消費者→太陽",
+            "生産者→消費者"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "生産者→消費者",
+          "explanation": "有機物中のエネルギーは、食物連鎖を通じて生産者から消費者へ移動します。"
+        },
+        {
+          "id": 33,
+          "category": "生態系",
+          "unit": "個体群",
+          "difficulty": "normal",
+          "question": "同じ場所に生息する同種の生物集団を何というか。",
+          "choices": [
+            "個体群",
+            "群集",
+            "生態系",
+            "種"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "個体群",
+          "explanation": "個体群は一定の地域に生息する同種の個体の集まりです。"
+        },
+        {
+          "id": 34,
+          "category": "生物多様性",
+          "unit": "遺伝的多様性",
+          "difficulty": "normal",
+          "question": "同じ種の中で遺伝的な違いが見られることを何というか。",
+          "choices": [
+            "生態系多様性",
+            "遺伝的多様性",
+            "自然選択",
+            "共生"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "遺伝的多様性",
+          "explanation": "遺伝的多様性とは、同じ種の個体間に遺伝的な違いがあることです。"
+        },
+        {
+          "id": 35,
+          "category": "バイオーム",
+          "unit": "日本のバイオーム",
+          "difficulty": "normal",
+          "question": "温暖で降水量が多い地域に発達する森林として代表的なのはどれか。",
+          "choices": [
+            "砂漠",
+            "ツンドラ",
+            "照葉樹林",
+            "針葉樹林"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "照葉樹林",
+          "explanation": "照葉樹林は温暖で降水量の多い地域に発達します。"
+        },
+        {
+          "id": 36,
+          "category": "環境問題",
+          "unit": "水質汚濁",
+          "difficulty": "normal",
+          "question": "湖沼で窒素やリンが増加し、植物プランクトンが異常増殖する現象はどれか。",
+          "choices": [
+            "酸性雨",
+            "地盤沈下",
+            "砂漠化",
+            "富栄養化"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "富栄養化",
+          "explanation": "富栄養化が進むと、植物プランクトンが増殖し、アオコなどが発生しやすくなります。"
+        },
+        {
+          "id": 37,
+          "category": "DNAと遺伝情報",
+          "unit": "塩基",
+          "difficulty": "normal",
+          "question": "DNAに含まれない塩基はどれか。",
+          "choices": [
+            "ウラシル",
+            "アデニン",
+            "チミン",
+            "グアニン"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "ウラシル",
+          "explanation": "ウラシルはRNAに含まれる塩基で、DNAには通常含まれません。"
+        },
+        {
+          "id": 38,
+          "category": "遺伝子とタンパク質",
+          "unit": "遺伝情報の流れ",
+          "difficulty": "normal",
+          "question": "mRNAの情報をもとにタンパク質が合成される過程を何というか。",
+          "choices": [
+            "転写",
+            "翻訳",
+            "複製",
+            "分裂"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "翻訳",
+          "explanation": "翻訳では、mRNAの塩基配列の情報にもとづいてアミノ酸が並べられ、タンパク質が合成されます。"
+        },
+        {
+          "id": 39,
+          "category": "体内環境",
+          "unit": "腎臓",
+          "difficulty": "normal",
+          "question": "血液をろ過して尿をつくる主要な器官はどれか。",
+          "choices": [
+            "肝臓",
+            "肺",
+            "腎臓",
+            "胃"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "腎臓",
+          "explanation": "腎臓は血液をろ過し、再吸収や分泌を経て尿をつくるとともに、体液の量や成分を調節します。"
+        },
+        {
+          "id": 40,
+          "category": "免疫",
+          "unit": "予防接種",
+          "difficulty": "normal",
+          "question": "ワクチン接種の目的として最も適切なのはどれか。",
+          "choices": [
+            "病原体を増やす",
+            "赤血球を増やす",
+            "血糖値を下げる",
+            "記憶細胞を形成し感染に備える"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "記憶細胞を形成し感染に備える",
+          "explanation": "ワクチンは免疫記憶を形成させ、同じ抗原をもつ病原体が侵入したときに、より速く強い免疫応答が起こるようにします。"
+        },
+        {
+          "id": 41,
+          "category": "細胞",
+          "unit": "細胞呼吸",
+          "difficulty": "hard",
+          "question": "酸素を用いる細胞呼吸で、有機物が分解された結果として生じる主な物質の組み合わせはどれか。",
+          "choices": [
+            "二酸化炭素と水",
+            "酸素と水",
+            "窒素と水",
+            "二酸化炭素と酸素"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "二酸化炭素と水",
+          "explanation": "酸素を用いる細胞呼吸では、有機物が分解されて二酸化炭素と水が生じ、取り出されたエネルギーの一部がATPに蓄えられます。"
+        },
+        {
+          "id": 42,
+          "category": "DNAと遺伝情報",
+          "unit": "塩基対",
+          "difficulty": "hard",
+          "question": "DNAの塩基対の組み合わせとして正しいものはどれか。",
+          "choices": [
+            "アデニン-グアニン",
+            "アデニン-チミン",
+            "チミン-シトシン",
+            "グアニン-アデニン"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "アデニン-チミン",
+          "explanation": "DNAではアデニンとチミン、グアニンとシトシンが対になります。"
+        },
+        {
+          "id": 43,
+          "category": "遺伝子とタンパク質",
+          "unit": "遺伝情報の発現",
+          "difficulty": "hard",
+          "question": "あるタンパク質のアミノ酸配列を最終的に決定する情報源はどれか。",
+          "choices": [
+            "細胞膜",
+            "リボソーム",
+            "DNAの塩基配列",
+            "脂質二重層"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "DNAの塩基配列",
+          "explanation": "DNAの塩基配列の情報が転写・翻訳を通じて読み取られ、タンパク質のアミノ酸配列が決まります。"
+        },
+        {
+          "id": 44,
+          "category": "体内環境",
+          "unit": "血糖調節",
+          "difficulty": "hard",
+          "question": "インスリンの分泌が不足した場合に起こりやすい状態はどれか。",
+          "choices": [
+            "低体温",
+            "低血糖",
+            "血圧低下",
+            "高血糖"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "高血糖",
+          "explanation": "インスリンの分泌が不足すると、細胞へのグルコースの取り込みやグリコーゲン合成が低下し、血糖濃度が高くなりやすくなります。"
+        },
+        {
+          "id": 45,
+          "category": "自律神経",
+          "unit": "神経とホルモン",
+          "difficulty": "hard",
+          "question": "緊張したときに副腎髄質から分泌されるホルモンはどれか。",
+          "choices": [
+            "アドレナリン",
+            "インスリン",
+            "チロキシン",
+            "バソプレシン"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "アドレナリン",
+          "explanation": "緊張時には交感神経の働きが強まり、副腎髄質からアドレナリンが分泌されます。"
+        },
+        {
+          "id": 46,
+          "category": "免疫",
+          "unit": "獲得免疫",
+          "difficulty": "hard",
+          "question": "一度感染した病原体に再び感染したとき、速やかに免疫応答が起こる主な理由はどれか。",
+          "choices": [
+            "赤血球が増えるから",
+            "記憶細胞が残っているから",
+            "血しょうが増えるから",
+            "体温が下がるから"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "記憶細胞が残っているから",
+          "explanation": "初回の免疫応答で形成された記憶細胞が残っているため、同じ抗原が再び侵入すると、速やかで強い二次応答が起こります。"
+        },
+        {
+          "id": 47,
+          "category": "生態系",
+          "unit": "物質循環",
+          "difficulty": "hard",
+          "question": "生態系において無機物を再び生産者が利用できる形に戻す役割を担うのはどれか。",
+          "choices": [
+            "一次消費者",
+            "肉食動物",
+            "分解者",
+            "寄生者"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "分解者",
+          "explanation": "分解者は、生物の遺体や排出物に含まれる有機物を無機物へ分解し、物質循環に関わります。"
+        },
+        {
+          "id": 48,
+          "category": "生物多様性",
+          "unit": "保全",
+          "difficulty": "hard",
+          "question": "生物多様性を保全する意義として最も適切なものはどれか。",
+          "choices": [
+            "すべての環境変化を防ぐため",
+            "特定種だけを守るため",
+            "食物連鎖をなくすため",
+            "生態系の安定性や資源利用を維持するため"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "生態系の安定性や資源利用を維持するため",
+          "explanation": "生物多様性は、生態系の働きや安定性を支え、食料・医薬品などの資源やさまざまな生態系サービスの基盤となります。"
+        },
+        {
+          "id": 49,
+          "category": "バイオーム",
+          "unit": "気候と植生",
+          "difficulty": "hard",
+          "question": "ツンドラで高木が育ちにくい主な理由はどれか。",
+          "choices": [
+            "永久凍土が存在するため",
+            "降水量が非常に多いため",
+            "酸素が存在しないため",
+            "光が全く届かないため"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "永久凍土が存在するため",
+          "explanation": "ツンドラでは地下に永久凍土が存在し、植物が根を深く張りにくいため、高木が育ちにくくなります。"
+        },
+        {
+          "id": 50,
+          "category": "環境問題",
+          "unit": "地球環境",
+          "difficulty": "hard",
+          "question": "酸性雨の主な原因となる気体として適切なのはどれか。",
+          "choices": [
+            "メタンと窒素",
+            "硫黄酸化物と窒素酸化物",
+            "酸素と水素",
+            "アルゴンとヘリウム"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "硫黄酸化物と窒素酸化物",
+          "explanation": "硫黄酸化物や窒素酸化物が大気中で酸性の物質に変化し、雨や雪に溶け込むことで酸性雨の原因となります。"
+        }
+      ]
+    },
+    {
+      "subjectId": "basic_geo",
+      "subject": "地学基礎",
+      "questions": [
+        {
+          "id": 1,
+          "category": "地球",
+          "unit": "地球の形と大きさ",
+          "difficulty": "easy",
+          "question": "地球の形を単純化して表したものとして、最も適切なものはどれか。",
+          "choices": [
+            "完全な球",
+            "赤道方向にややふくらんだ回転楕円体",
+            "立方体",
+            "北極方向にふくらんだ楕円体"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "赤道方向にややふくらんだ回転楕円体",
+          "explanation": "地球は自転の影響により、赤道方向にわずかにふくらみ、極方向に少しつぶれた回転楕円体に近い形をしています。厳密な地球の形はジオイドで表されます。"
+        },
+        {
+          "id": 2,
+          "category": "地球",
+          "unit": "地球の内部構造",
+          "difficulty": "easy",
+          "question": "地球内部で最も外側にある層はどれか。",
+          "choices": [
+            "マントル",
+            "外核",
+            "地殻",
+            "内核"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "地殻",
+          "explanation": "地殻は地球の最も表面にある固体の層です。"
+        },
+        {
+          "id": 3,
+          "category": "地球",
+          "unit": "プレートテクトニクス",
+          "difficulty": "easy",
+          "question": "地球表面を覆う岩盤の大きな板を何というか。",
+          "choices": [
+            "断層",
+            "プレート",
+            "地溝",
+            "褶曲"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "プレート",
+          "explanation": "地球表面は複数のプレートによって覆われており、ゆっくり移動しています。"
+        },
+        {
+          "id": 4,
+          "category": "地球",
+          "unit": "火山活動",
+          "difficulty": "easy",
+          "question": "火山から噴出した溶けた岩石が地表を流れるものを何というか。",
+          "choices": [
+            "火山灰",
+            "溶岩",
+            "軽石",
+            "火山礫"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "溶岩",
+          "explanation": "地表に噴出したマグマを溶岩と呼びます。"
+        },
+        {
+          "id": 5,
+          "category": "地球",
+          "unit": "地震",
+          "difficulty": "easy",
+          "question": "地震が最初に発生した地下の地点を何というか。",
+          "choices": [
+            "震央",
+            "断層面",
+            "震源",
+            "地溝"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "震源",
+          "explanation": "震源は地下で地震が発生した場所であり、その真上の地表を震央といいます。"
+        },
+        {
+          "id": 6,
+          "category": "地質",
+          "unit": "地層",
+          "difficulty": "easy",
+          "question": "堆積物が積み重なってできた層を何というか。",
+          "choices": [
+            "断層",
+            "地層",
+            "火成岩",
+            "変成岩"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "地層",
+          "explanation": "地層は堆積物が長い時間をかけて積み重なってできたものです。"
+        },
+        {
+          "id": 7,
+          "category": "地質",
+          "unit": "堆積岩",
+          "difficulty": "easy",
+          "question": "砂が固まってできた堆積岩はどれか。",
+          "choices": [
+            "頁岩",
+            "石灰岩",
+            "砂岩",
+            "チャート"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "砂岩",
+          "explanation": "砂粒が堆積して固結した岩石を砂岩といいます。"
+        },
+        {
+          "id": 8,
+          "category": "地質",
+          "unit": "化石",
+          "difficulty": "easy",
+          "question": "地層の年代を知る手がかりとして役立つ化石を何というか。",
+          "choices": [
+            "示準化石",
+            "示相化石",
+            "生痕化石",
+            "植物化石"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "示準化石",
+          "explanation": "示準化石は生存期間が短く広範囲に分布した生物の化石で、地層の年代判定に役立ちます。"
+        },
+        {
+          "id": 9,
+          "category": "気象",
+          "unit": "大気の構造",
+          "difficulty": "easy",
+          "question": "雲や雨などの気象現象が主に起こる大気の層はどれか。",
+          "choices": [
+            "成層圏",
+            "中間圏",
+            "対流圏",
+            "熱圏"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "対流圏",
+          "explanation": "気象現象のほとんどは地表に最も近い対流圏で起こります。"
+        },
+        {
+          "id": 10,
+          "category": "気象",
+          "unit": "気圧",
+          "difficulty": "easy",
+          "question": "周囲より気圧が低い場所を何というか。",
+          "choices": [
+            "高気圧",
+            "低気圧",
+            "前線",
+            "偏西風"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "低気圧",
+          "explanation": "周囲より気圧が低い領域を低気圧と呼びます。"
+        },
+        {
+          "id": 11,
+          "category": "気象",
+          "unit": "風",
+          "difficulty": "easy",
+          "question": "地表付近の空気には、気圧差によって一般にどちらへ向かう力がはたらくか。",
+          "choices": [
+            "高気圧側から低気圧側",
+            "低気圧側から高気圧側",
+            "赤道から極のみ",
+            "極から赤道のみ"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "高気圧側から低気圧側",
+          "explanation": "空気には気圧の高い側から低い側へ向かう力がはたらきます。実際の地表付近の風向は、地球の自転や地表面との摩擦の影響も受けます。"
+        },
+        {
+          "id": 12,
+          "category": "気象",
+          "unit": "雲のでき方",
+          "difficulty": "easy",
+          "question": "空気が上昇して冷やされると起こりやすい現象はどれか。",
+          "choices": [
+            "蒸発",
+            "凝結",
+            "昇華",
+            "融解"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "凝結",
+          "explanation": "空気が冷やされると水蒸気が凝結し、雲粒が形成されます。"
+        },
+        {
+          "id": 13,
+          "category": "気象",
+          "unit": "前線",
+          "difficulty": "easy",
+          "question": "暖かい空気と冷たい空気の境界を何というか。",
+          "choices": [
+            "偏西風",
+            "ジェット気流",
+            "前線",
+            "気団"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "前線",
+          "explanation": "性質の異なる気団の境界面が地表と交わる線を前線といいます。"
+        },
+        {
+          "id": 14,
+          "category": "海洋",
+          "unit": "海流",
+          "difficulty": "easy",
+          "question": "日本付近を流れる暖流はどれか。",
+          "choices": [
+            "親潮",
+            "リマン海流",
+            "黒潮",
+            "千島海流"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "黒潮",
+          "explanation": "黒潮はフィリピン付近から日本沿岸を北上する暖流です。"
+        },
+        {
+          "id": 15,
+          "category": "宇宙",
+          "unit": "太陽",
+          "difficulty": "easy",
+          "question": "太陽のエネルギーの主な源は何か。",
+          "choices": [
+            "核分裂",
+            "化学反応",
+            "重力崩壊",
+            "核融合"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "核融合",
+          "explanation": "太陽内部では水素がヘリウムへ変わる核融合反応が起こっています。"
+        },
+        {
+          "id": 16,
+          "category": "宇宙",
+          "unit": "惑星",
+          "difficulty": "easy",
+          "question": "太陽系で地球の内側を公転する惑星はどれか。",
+          "choices": [
+            "火星",
+            "金星",
+            "木星",
+            "土星"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "金星",
+          "explanation": "金星は地球より内側を公転する内惑星です。"
+        },
+        {
+          "id": 17,
+          "category": "宇宙",
+          "unit": "月",
+          "difficulty": "easy",
+          "question": "月が地球の周りを1周する運動を何というか。",
+          "choices": [
+            "自転",
+            "公転",
+            "歳差運動",
+            "差動回転"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "公転",
+          "explanation": "月は地球のまわりを公転しています。"
+        },
+        {
+          "id": 18,
+          "category": "宇宙",
+          "unit": "太陽系",
+          "difficulty": "easy",
+          "question": "太陽系の中心にある天体はどれか。",
+          "choices": [
+            "地球",
+            "月",
+            "太陽",
+            "木星"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "太陽",
+          "explanation": "太陽系では、惑星などの天体が太陽の周りを公転しています。"
+        },
+        {
+          "id": 19,
+          "category": "環境",
+          "unit": "地球環境",
+          "difficulty": "easy",
+          "question": "人間活動による現在の地球温暖化を進める主な温室効果ガスとして、最も適切なものはどれか。",
+          "choices": [
+            "窒素",
+            "酸素",
+            "二酸化炭素",
+            "アルゴン"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "二酸化炭素",
+          "explanation": "化石燃料の燃焼などで大気中の二酸化炭素濃度が上昇すると、温室効果が強まり、地球温暖化が進みます。"
+        },
+        {
+          "id": 20,
+          "category": "防災",
+          "unit": "自然災害と防災",
+          "difficulty": "easy",
+          "question": "地震発生時にまず行うべき行動として最も適切なのはどれか。",
+          "choices": [
+            "窓から飛び出す",
+            "机の下などで身を守る",
+            "すぐにエレベーターへ向かう",
+            "屋根に上がる"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "机の下などで身を守る",
+          "explanation": "強い揺れの際は、丈夫な机の下に入るなどして落下物から身を守ることが最優先です。"
+        },
+        {
+          "id": 21,
+          "category": "地球",
+          "unit": "地球の内部構造",
+          "difficulty": "normal",
+          "question": "マントルを構成する主な岩石はどれか。",
+          "choices": [
+            "花こう岩",
+            "玄武岩",
+            "かんらん岩",
+            "砂岩"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "かんらん岩",
+          "explanation": "マントルは主にかんらん岩から構成されています。"
+        },
+        {
+          "id": 22,
+          "category": "地球",
+          "unit": "プレートテクトニクス",
+          "difficulty": "normal",
+          "question": "海洋プレートが大陸プレートの下に沈み込む場所を何というか。",
+          "choices": [
+            "中央海嶺",
+            "海溝",
+            "地塁",
+            "リフトバレー"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "海溝",
+          "explanation": "海溝はプレートが沈み込む境界付近に形成されます。"
+        },
+        {
+          "id": 23,
+          "category": "地球",
+          "unit": "火山活動",
+          "difficulty": "normal",
+          "question": "粘り気が小さいマグマに対応する火山岩はどれか。",
+          "choices": [
+            "流紋岩",
+            "安山岩",
+            "玄武岩",
+            "花こう岩"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "玄武岩",
+          "explanation": "玄武岩質マグマは二酸化ケイ素が少なく、一般に粘り気が小さく流動性が高い特徴があります。"
+        },
+        {
+          "id": 24,
+          "category": "地球",
+          "unit": "地震",
+          "difficulty": "normal",
+          "question": "P波の特徴として正しいものはどれか。",
+          "choices": [
+            "横波である",
+            "S波より遅い",
+            "最初に到達する",
+            "液体中を伝わらない"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "最初に到達する",
+          "explanation": "P波は縦波で速度が速く、地震波の中で最初に到達します。また、固体だけでなく液体中も伝わります。"
+        },
+        {
+          "id": 25,
+          "category": "地質",
+          "unit": "地層",
+          "difficulty": "normal",
+          "question": "堆積物は原則としてほぼ水平に堆積すると考える法則を何というか。",
+          "choices": [
+            "地向斜説",
+            "水平堆積の法則",
+            "生物進化の法則",
+            "重力の法則"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "水平堆積の法則",
+          "explanation": "堆積物は重力の作用により、原則としてほぼ水平に堆積します。現在傾いている地層は、堆積後に地殻変動を受けた可能性があります。"
+        },
+        {
+          "id": 26,
+          "category": "地質",
+          "unit": "化石",
+          "difficulty": "normal",
+          "question": "造礁サンゴの化石が示す当時の環境として適切なのはどれか。",
+          "choices": [
+            "深海",
+            "寒冷な陸上",
+            "暖かく浅い海",
+            "高山地帯"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "暖かく浅い海",
+          "explanation": "造礁サンゴは一般に暖かく浅い海に生息するため、その化石は当時の環境を示す示相化石として利用されます。"
+        },
+        {
+          "id": 27,
+          "category": "地質",
+          "unit": "地質年代",
+          "difficulty": "normal",
+          "question": "恐竜が繁栄した時代はどれか。",
+          "choices": [
+            "古生代",
+            "中生代",
+            "新生代",
+            "先カンブリア時代"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "中生代",
+          "explanation": "恐竜は中生代を代表する生物です。"
+        },
+        {
+          "id": 28,
+          "category": "気象",
+          "unit": "大気の構造",
+          "difficulty": "normal",
+          "question": "オゾン層が多く存在する大気の層はどれか。",
+          "choices": [
+            "対流圏",
+            "成層圏",
+            "中間圏",
+            "熱圏"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "成層圏",
+          "explanation": "オゾン層は成層圏に多く分布しています。"
+        },
+        {
+          "id": 29,
+          "category": "気象",
+          "unit": "天気図",
+          "difficulty": "normal",
+          "question": "天気図で同じ気圧の地点を結んだ線を何というか。",
+          "choices": [
+            "等温線",
+            "等高線",
+            "等圧線",
+            "前線"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "等圧線",
+          "explanation": "等圧線は、同じ時刻に同じ気圧を示す地点を結んだ線です。"
+        },
+        {
+          "id": 30,
+          "category": "気象",
+          "unit": "降水",
+          "difficulty": "normal",
+          "question": "暖かい湿った空気が山を越えて反対側で乾燥する現象を何というか。",
+          "choices": [
+            "海陸風",
+            "フェーン現象",
+            "季節風",
+            "偏西風"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "フェーン現象",
+          "explanation": "フェーン現象では、山を越えて下降する空気の温度が上昇し、風下側が高温で乾燥しやすくなります。"
+        },
+        {
+          "id": 31,
+          "category": "気象",
+          "unit": "前線",
+          "difficulty": "normal",
+          "question": "寒冷前線が通過するときに起こりやすい天気はどれか。",
+          "choices": [
+            "長時間の弱い雨",
+            "晴天の持続",
+            "短時間の強い雨",
+            "無風状態"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "短時間の強い雨",
+          "explanation": "寒冷前線付近では積乱雲が発達し、短時間に強い雨が降りやすくなります。"
+        },
+        {
+          "id": 32,
+          "category": "気象",
+          "unit": "温帯低気圧",
+          "difficulty": "normal",
+          "question": "日本付近の温帯低気圧の多くが移動する方向はどれか。",
+          "choices": [
+            "西から東",
+            "東から西",
+            "北から南",
+            "南から北"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "西から東",
+          "explanation": "中緯度帯では偏西風の影響で、温帯低気圧は多くの場合、西から東へ進みます。"
+        },
+        {
+          "id": 33,
+          "category": "海洋",
+          "unit": "海洋と海流",
+          "difficulty": "normal",
+          "question": "海水の表面付近の流れを生じさせる主な要因はどれか。",
+          "choices": [
+            "月の重力のみ",
+            "火山活動",
+            "風",
+            "地震"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "風",
+          "explanation": "表層海流は主に海上を吹く風によって生じます。"
+        },
+        {
+          "id": 34,
+          "category": "宇宙",
+          "unit": "恒星",
+          "difficulty": "normal",
+          "question": "恒星が自ら光を放つ主な理由は何か。",
+          "choices": [
+            "太陽光の反射",
+            "核融合反応",
+            "火山活動",
+            "重力波"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "核融合反応",
+          "explanation": "恒星内部では核融合反応が起こり、莫大なエネルギーを放出しています。"
+        },
+        {
+          "id": 35,
+          "category": "宇宙",
+          "unit": "月",
+          "difficulty": "normal",
+          "question": "満月の頃の月・地球・太陽の概略的な位置関係として正しいものはどれか。",
+          "choices": [
+            "地球と月の間に太陽がある",
+            "地球と太陽の間に月がある",
+            "太陽と月の間に地球がある",
+            "地球から見て太陽と月がほぼ直角の方向にある"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "太陽と月の間に地球がある",
+          "explanation": "満月の頃には、地球から見て月が太陽とほぼ反対方向に位置するため、概略的には太陽と月の間に地球があります。ただし、月の公転軌道は地球の公転軌道面に対して傾いているため、満月のたびに月食が起こるわけではありません。"
+        },
+        {
+          "id": 36,
+          "category": "宇宙",
+          "unit": "日食・月食",
+          "difficulty": "normal",
+          "question": "月食が起こる条件として正しいものはどれか。",
+          "choices": [
+            "新月である",
+            "満月の頃に月が地球の影に入る",
+            "上弦の月である",
+            "月が太陽を隠す"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "満月の頃に月が地球の影に入る",
+          "explanation": "月食は満月の頃に月が地球の影に入ることで起こります。"
+        },
+        {
+          "id": 37,
+          "category": "宇宙",
+          "unit": "銀河",
+          "difficulty": "normal",
+          "question": "太陽系が属している銀河は何か。",
+          "choices": [
+            "アンドロメダ銀河",
+            "大マゼラン銀河",
+            "天の川銀河",
+            "小マゼラン銀河"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "天の川銀河",
+          "explanation": "太陽系は天の川銀河の一員です。"
+        },
+        {
+          "id": 38,
+          "category": "環境",
+          "unit": "地球環境",
+          "difficulty": "normal",
+          "question": "オゾン層の破壊と関係が深い物質はどれか。",
+          "choices": [
+            "二酸化炭素",
+            "メタン",
+            "フロン類",
+            "窒素"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "フロン類",
+          "explanation": "フロン類から生じる塩素原子などが成層圏でオゾンを分解する原因となります。"
+        },
+        {
+          "id": 39,
+          "category": "防災",
+          "unit": "自然災害と防災",
+          "difficulty": "normal",
+          "question": "海岸付近にいるときに津波警報が発表された。取るべき行動として最も適切なものはどれか。",
+          "choices": [
+            "海岸へ津波の様子を見に行く",
+            "海岸や川から離れ、高台や津波避難施設へ避難する",
+            "自分で船を出して沖へ向かう",
+            "川沿いを通って海岸へ移動する"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "海岸や川から離れ、高台や津波避難施設へ避難する",
+          "explanation": "津波警報が発表された場合は、海岸や川から直ちに離れ、高台や指定された津波避難施設などの安全な場所へ避難します。津波の様子を見に行ってはいけません。"
+        },
+        {
+          "id": 40,
+          "category": "地球史",
+          "unit": "地球史",
+          "difficulty": "normal",
+          "question": "地球誕生のおよその年代として最も適切なのはどれか。",
+          "choices": [
+            "約46億年前",
+            "約460万年前",
+            "約460億年前",
+            "約4万6000年前"
+          ],
+          "correctChoiceIndex": 0,
+          "answer": "約46億年前",
+          "explanation": "地球は約46億年前に形成されたと考えられています。"
+        },
+        {
+          "id": 41,
+          "category": "地球",
+          "unit": "プレートテクトニクス",
+          "difficulty": "hard",
+          "question": "海洋底拡大を示す有力な証拠として知られるものはどれか。",
+          "choices": [
+            "地向斜の分布",
+            "中央海嶺を挟んだ縞状の地磁気異常の対称分布",
+            "恐竜化石の発見",
+            "短期間の気候変動の記録"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "中央海嶺を挟んだ縞状の地磁気異常の対称分布",
+          "explanation": "海底の岩石が記録した地磁気の向きは、中央海嶺を挟んで縞状かつほぼ対称に分布しています。これは中央海嶺で新しい海洋底がつくられ、両側へ拡大したことを示す重要な証拠です。"
+        },
+        {
+          "id": 42,
+          "category": "地球",
+          "unit": "地震",
+          "difficulty": "hard",
+          "question": "S波が伝わらないことから外核についてわかることはどれか。",
+          "choices": [
+            "固体である",
+            "液体である",
+            "真空である",
+            "岩石でできている"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "液体である",
+          "explanation": "S波は液体中を伝わらないため、外核は液体であると考えられています。"
+        },
+        {
+          "id": 43,
+          "category": "地質",
+          "unit": "地質年代",
+          "difficulty": "hard",
+          "question": "古生代末のペルム紀末に起こった、地球史上最大規模とされる生物の大量絶滅を何というか。",
+          "choices": [
+            "K-Pg境界の大量絶滅",
+            "P-T境界の大量絶滅",
+            "カンブリア爆発",
+            "オゾンホールの形成"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "P-T境界の大量絶滅",
+          "explanation": "古生代末のペルム紀と中生代初めの三畳紀の境界では、地球史上最大規模とされる大量絶滅が起こりました。これをP-T境界の大量絶滅、またはペルム紀末の大量絶滅といいます。"
+        },
+        {
+          "id": 44,
+          "category": "気象",
+          "unit": "大気の構造",
+          "difficulty": "hard",
+          "question": "成層圏で高度が高くなるほど気温が上昇する主な理由は何か。",
+          "choices": [
+            "水蒸気が多いから",
+            "雲が多いから",
+            "オゾンが紫外線を吸収するから",
+            "地表の熱が直接伝わるから"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "オゾンが紫外線を吸収するから",
+          "explanation": "オゾンが太陽からの紫外線を吸収し、そのエネルギーで成層圏が温められるためです。"
+        },
+        {
+          "id": 45,
+          "category": "気象",
+          "unit": "日本の気候",
+          "difficulty": "hard",
+          "question": "冬の日本海側で降雪が多くなる主な原因はどれか。",
+          "choices": [
+            "黒潮だけの影響",
+            "シベリア気団から吹く北西季節風",
+            "台風の接近",
+            "偏西風が消えるため"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "シベリア気団から吹く北西季節風",
+          "explanation": "冬季にはシベリア気団からの冷たい北西季節風が日本海上で水蒸気を補給し、山地で上昇して雪雲を発達させるため、日本海側に多くの雪をもたらします。"
+        },
+        {
+          "id": 46,
+          "category": "海洋",
+          "unit": "海洋と海流",
+          "difficulty": "hard",
+          "question": "深層海流の形成に大きく関わる要因の組み合わせはどれか。",
+          "choices": [
+            "気圧と風",
+            "塩分と水温",
+            "降水量と火山活動",
+            "潮汐と地震"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "塩分と水温",
+          "explanation": "深層海流は海水の密度差によって生じ、その密度は主に塩分と水温によって変化します。"
+        },
+        {
+          "id": 47,
+          "category": "宇宙",
+          "unit": "恒星",
+          "difficulty": "hard",
+          "question": "恒星の色と表面温度の関係として正しいものはどれか。",
+          "choices": [
+            "赤い恒星ほど高温",
+            "青白い恒星ほど高温",
+            "黄色い恒星が最も高温",
+            "色と温度は無関係"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "青白い恒星ほど高温",
+          "explanation": "恒星は表面温度が高いほど青白く、低いほど赤く見えます。"
+        },
+        {
+          "id": 48,
+          "category": "宇宙",
+          "unit": "惑星",
+          "difficulty": "hard",
+          "question": "地球型惑星に共通する特徴として最も適切なのはどれか。",
+          "choices": [
+            "主成分が水素とヘリウム",
+            "環を必ず持つ",
+            "半径が非常に大きい",
+            "岩石を主成分とする"
+          ],
+          "correctChoiceIndex": 3,
+          "answer": "岩石を主成分とする",
+          "explanation": "水星・金星・地球・火星は、岩石や金属を主成分とする地球型惑星です。"
+        },
+        {
+          "id": 49,
+          "category": "宇宙",
+          "unit": "宇宙の構造",
+          "difficulty": "hard",
+          "question": "観測からわかった宇宙の特徴として正しいものはどれか。",
+          "choices": [
+            "宇宙は静止している",
+            "宇宙は収縮のみしている",
+            "宇宙は膨張している",
+            "銀河は動かない"
+          ],
+          "correctChoiceIndex": 2,
+          "answer": "宇宙は膨張している",
+          "explanation": "遠方銀河のスペクトルに見られる赤方偏移と距離の関係などから、宇宙が膨張していることがわかっています。"
+        },
+        {
+          "id": 50,
+          "category": "防災",
+          "unit": "自然災害と防災",
+          "difficulty": "hard",
+          "question": "ハザードマップを活用する主な目的は何か。",
+          "choices": [
+            "地震を正確に予知するため",
+            "被害が想定される地域や避難場所を事前に把握するため",
+            "気温を予測するため",
+            "天体観測を行うため"
+          ],
+          "correctChoiceIndex": 1,
+          "answer": "被害が想定される地域や避難場所を事前に把握するため",
+          "explanation": "ハザードマップは、災害による被害が想定される地域や避難場所・避難経路を事前に確認し、防災行動に役立てるための地図です。"
+        }
+      ]
+    }
+  ]
+}
